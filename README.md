@@ -11,9 +11,12 @@ void setup(){
 ```
 
 Assessments
-
+  - [Assessment 1](http://yahoo.com/)
+  - [Assessment 2](http://yahoo.com/)
+  - [Assessment 3](http://yahoo.com/)
+  
 Weekly course material
-  - [Week 1](http://yahoo.com/)
+  - [Week 1: Intro to Processing and Setup](http://yahoo.com/)
   - [Week 2](http://yahoo.com/)
   - [Week 3](http://yahoo.com/)
   - [Week 4](http://yahoo.com/)
