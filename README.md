@@ -1,14 +1,27 @@
 # creative-coding-studio
 Semester curriculum Creative Coding studio - RMIT University Digital Media
-```python
-if yo == True:
-    return 12;
-```
-Go over to [week 2](http://yahoo.com/) to see cool things.
+```processing
+void draw(){
+  size(900,900);
+}
 
-Or:
-  - you
-  - are
-  - cool
+void setup(){
+  background(0,0,0);
+}
+```
+
+Assessments
+
+Weekly course material
+  - [Week 1](http://yahoo.com/)
+  - [Week 2](http://yahoo.com/)
+  - [Week 3](http://yahoo.com/)
+  - [Week 4](http://yahoo.com/)
+  - [Week 5](http://yahoo.com/)
+  - [Week 6](http://yahoo.com/)
+  - [Week 7](http://yahoo.com/)
+  - [Week 8](http://yahoo.com/)
+  - [Week 9](http://yahoo.com/)
+  - [Week 10](http://yahoo.com/)
   
 bye
