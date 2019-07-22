@@ -1,5 +1,7 @@
 # creative-coding-studio
-Semester curriculum Creative Coding studio - RMIT University Digital Media
+Welcome to the Creative Coding studio.
+
+
 ```processing
 void draw(){
   size(900,900);
