@@ -47,7 +47,7 @@ Check-in: 18 September 2019 (In class)
 Due date: 4 October 2019, 11pm AEST
 Reminder: No assessments will be accepted without a cover sheet
 
-## Task 3
+## Task 3 (30%)
 Present and mock your ideas for the final visuals and how they could be used at the museum for the exhibition
 - and -
 Prepare a 10-minute presentation on your inspiration, process and final outputs. Use plenty of large images and tell your story. This is not meant to be a stiff or professional presentation, just a chance to share your work amongst peers. Have fun with it!
