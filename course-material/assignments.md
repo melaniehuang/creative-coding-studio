@@ -28,6 +28,7 @@ Research one or more of the artists’ life and/or work to uncover and construct
 - 2 x Clearly defined concepts in process journal(40pts)
 
 **Due date:** Fri 9 Aug 2019, 11pm AEST
+
 _Reminder: No assessments will be accepted without a cover sheet_
 
 ## Task 2: Build (40%)
@@ -45,6 +46,7 @@ Please be sure to include all developments of your interactive sketch as part of
 Check-in: 18 September 2019 (In class)
 
 **Due date:** 4 October 2019, 11pm AEST
+
 _Reminder: No assessments will be accepted without a cover sheet_
 
 ## Task 3 (30%)
