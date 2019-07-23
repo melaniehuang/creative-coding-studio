@@ -2,7 +2,7 @@
 Welcome to the Creative Coding studio.
 
 Assessments
-  - [Assessments](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/assignments.md)
+  - [Tasks 1, 2 & 3](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/assignments.md)
   
 Weekly course material
   - [Week 1: Intro to Processing and Setup](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
