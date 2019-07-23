@@ -27,8 +27,8 @@ Research one or more of the artists’ life and/or work to uncover and construct
 - Documentation of research and inspiration in process journal(40pts)
 - 2 x Clearly defined concepts in process journal(40pts)
 
-Due date: Fri 9 Aug 2019, 11pm AEST
-Reminder: No assessments will be accepted without a cover sheet
+**Due date:** Fri 9 Aug 2019, 11pm AEST
+_Reminder: No assessments will be accepted without a cover sheet_
 
 ## Task 2: Build (40%)
 After a collaborative consultation with your client(slash lecturer), you will be provided with ideas and areas to explore for your deliverables. This may be a single concept, or perhaps a combination of the two for you to explore further. Your task is to expand upon your ideas in Task 1, in order to build the final visuals for the exhibition.
@@ -44,8 +44,8 @@ Process journal documenting any development or research leading to final sketch(
 Please be sure to include all developments of your interactive sketch as part of this documentation
 Check-in: 18 September 2019 (In class)
 
-Due date: 4 October 2019, 11pm AEST
-Reminder: No assessments will be accepted without a cover sheet
+**Due date:** 4 October 2019, 11pm AEST
+_Reminder: No assessments will be accepted without a cover sheet_
 
 ## Task 3 (30%)
 Present and mock your ideas for the final visuals and how they could be used at the museum for the exhibition
@@ -65,5 +65,6 @@ As an additional part of this assessment, each student will also be required to 
 - Answer(5pt) and question(5pt)
 - Final process journal and visuals (30pts)
 
-Presentation: Wed 16 + 23 Oct, 9:30am-12:30pm (In class)
-Due date: 26 October 2019, 11pm AEST
+**Presentation:** Wed 16 + 23 Oct, 9:30am-12:30pm (In class)
+
+**Due date:** 26 October 2019, 11pm AEST
