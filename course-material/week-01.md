@@ -60,7 +60,7 @@ Change some numbers and it should become fairly obvious :)
 You’ll also notice here that I have included these lines: _//This runs once_ and _//This runs on repeat_. This is what’s known as commenting - the characters **//** that precede the comment tell the computer to ignore this line. You will be using comments to add any inspiration or references you may have used for your sketches.
 
 ### !! This part is a super important bit !!
-You will find a LOT of inspiration online and naturally watch a tonne of tutorials to learn throughout the semester. I dare you to get through the entire semester without watching one of Daniel Shiffman's Coding Train videos. As Lauren McCarthy eloquently said, learning is part of the process. *However* - you **MUST** put your sources in your code commented at the top of your code. It doesn't need to be complex, just something like this so I can tell where their ideas end and yours begin:
+You will find a LOT of inspiration online and naturally watch a tonne of tutorials to learn throughout the semester. I dare you to get through the entire semester without watching one of [Daniel Shiffman's Coding Train](https://www.youtube.com/user/shiffman) videos. As Lauren McCarthy eloquently said, learning is part of the process. *However* - you **MUST** put your sources in your code commented at the top of your code. It doesn't need to be complex, just something like this so I can tell where their ideas end and yours begin:
 
 ```processing
 // Coding Challenge #11: 3D Terrain Generation with Perlin Noise in Processing
