@@ -28,8 +28,8 @@ The concept of a “sketch” is fundamental to Processing. It introduces a new 
 Now Processing is only one community of programming artists - but you will discover a lot more and find that computer art goes back as soon as we started to look at what computers could do.
 
 **And here's some more video inspo:**
-[A Box of Chaos: The Generative Artist's Toolkit by Benjamin Kovach](https://www.youtube.com/watch?v=kZNTozzsNqk&t=1s)
-[Code goes in, Art comes out - Tyler Hobbs](https://www.youtube.com/watch?v=LBpqoj2nOQo)
+- [A Box of Chaos: The Generative Artist's Toolkit by Benjamin Kovach](https://www.youtube.com/watch?v=kZNTozzsNqk&t=1s)
+- [Code goes in, Art comes out - Tyler Hobbs](https://www.youtube.com/watch?v=LBpqoj2nOQo)
 
 ## Saving a file
 When we save our sketch file, Processing will save that sketch inside a folder of the same name. For the sketch to run smoothly, you will always need to keep that sketch file (*.pde) inside the folder. Like this:
