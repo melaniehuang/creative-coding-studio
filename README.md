@@ -1,17 +1,6 @@
 # creative-coding-studio
 Welcome to the Creative Coding studio.
 
-
-```processing
-void draw(){
-  size(900,900);
-}
-
-void setup(){
-  background(0,0,0);
-}
-```
-
 Assessments
   - [Assessment 1](http://yahoo.com/)
   - [Assessment 2](http://yahoo.com/)
@@ -28,5 +17,3 @@ Weekly course material
   - [Week 8](http://yahoo.com/)
   - [Week 9](http://yahoo.com/)
   - [Week 10](http://yahoo.com/)
-  
-bye
