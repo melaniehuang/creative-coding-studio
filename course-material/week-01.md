@@ -1,6 +1,6 @@
-#Week 1: Setup
+# Week 1: Setup
 
-##Join our Slack
+## Join our Slack
 https://comm2753-cc.slack.com/
 Using your RMIT email address, join our Slack. This is where you will be able to communicate with the lecturer and each other. This is probably the fastest way to get in touch with me, otherwise, send me an email.
 
