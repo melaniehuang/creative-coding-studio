@@ -5,7 +5,7 @@ Assessments
   - [Assessments](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/assignments.md)
   
 Weekly course material
-  - [Week 1: Intro to Processing and Setup](http://yahoo.com/)
+  - [Week 1: Intro to Processing and Setup](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
   - [Week 2](http://yahoo.com/)
   - [Week 3](http://yahoo.com/)
   - [Week 4](http://yahoo.com/)
