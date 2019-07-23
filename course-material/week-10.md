@@ -1,1 +1,1 @@
-Week 1: Introduction to Processing
+Week 10: Presentation preparations(open debug session)

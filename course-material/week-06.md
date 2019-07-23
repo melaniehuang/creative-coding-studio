@@ -1,1 +1,1 @@
-Week 1: Introduction to Processing
+Week 6: Loops and repetition

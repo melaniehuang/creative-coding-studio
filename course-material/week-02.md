@@ -1,1 +1,1 @@
-Week 1: Introduction to Processing
+Week 02: Field Trip to NGV
