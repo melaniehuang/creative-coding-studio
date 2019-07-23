@@ -1,16 +1,15 @@
 # Week 1: Setup
 
 ## Join our Slack
-https://comm2753-cc.slack.com/
+[Join our Slack channel](https://comm2753-cc.slack.com/)
 Using your RMIT email address, join our Slack. This is where you will be able to communicate with the lecturer and each other. This is probably the fastest way to get in touch with me, otherwise, send me an email.
 
 ##Download and install Processing 
-https://processing.org/download/
-
+[Download the latest version of Processing here](https://processing.org/download/)
 This is where we will be writing all our code.
 
 ##Join the openProcessing class
-https://www.openprocessing.org/class/59891
+[Join the openProcessing classroom](https://www.openprocessing.org/class/59891)
 You will be supplied with a code to join in class. Please use an obvious name and your RMIT email when signing up.
 This is where we will be submitting our weekly tasks and as a result, sharing what we’ve all been making.
 
@@ -47,6 +46,7 @@ Can you describe what is happening in this sketch in plain english?
 Change some numbers and it should become fairly obvious :)
 
 You’ll also notice here that I have included these lines: _//This runs once_ and _//This runs on repeat_. This is what’s known as commenting - the characters “//” that precede the comment tell the computer to ignore this line. You will be using comments to add any inspiration or references you may have used for your sketches.
+
 Try adding your own comment.
 
 An important thing to also realise at this point is that the computer, unlike the English language, can’t assume what you were supposed to say. Therefore, if there’s a character out of place, the code won’t run. Check those commas, brackets and semicolons! Don’t worry too much about this, you will naturally get better at checking for these things the more you write code.
