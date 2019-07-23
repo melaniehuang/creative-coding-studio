@@ -202,10 +202,7 @@ Collection of Jon Shirley
 © 2019 Calder Foundation, New York/Copyright Agency, Australia
 
 ## Week 1 sketch exercise
-| Week 1 sketch exercise |
-| `Use Alexander Calder's work aestethically as your inspiration. 
-
-Draw at least 2 x 2D primitives to the screen in an interesting way. Use colours other than grayscale. Add your name as a comment at the top of the sketch for good practice. If you use any of his artworks or other tutorials as a reference, please include these also in your comments. If you do not use any particular artwork and/or other tutorials, please add a comment acknowledging that you "did not use any additional material" for inspiration.` |
+> Use Alexander Calder's work aestethically as your inspiration. Draw at least 2 x 2D primitives to the screen in an interesting way. Use colours other than grayscale. Add your name as a comment at the top of the sketch for good practice. If you use any of his artworks or other tutorials as a reference, please include these also in your comments. If you do not use any particular artwork and/or other tutorials, please add a comment acknowledging that you "did not use any additional material" for inspiration.
 
 
 # Uploading your weekly exercises
