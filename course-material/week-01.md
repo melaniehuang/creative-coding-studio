@@ -191,7 +191,7 @@ ellipse(x-coordinate of centre point, y-coordinate of centre point, ellipse widt
 So that's enough blabbering. Let's start by trying!
 In celebration of our NGV visit next week, let's use an Alexander Calder mobile as inspiration.
 
-![Alexander Calder, Gamma](https://github.com/melaniehuang/creative-coding-studio/edit/master/course-material/images/week-01-001.jpg)
+![Alexander Calder, Gamma](/images/week-01-001.jpg)
 
 Alexander Calder
 American 1898–1976
