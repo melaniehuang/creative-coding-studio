@@ -54,9 +54,9 @@ Change some numbers and it should become fairly obvious :)
 You’ll also notice here that I have included these lines: _//This runs once_ and _//This runs on repeat_. This is what’s known as commenting - the characters **//** that precede the comment tell the computer to ignore this line. You will be using comments to add any inspiration or references you may have used for your sketches.
 
 ## This part is super important
-```
 You will find a LOT of inspiration online and naturally watch a tonne of tutorials to learn throughout the semester. This is part of the process however - you MUST put your sources in your code commented at the top of your file. It doesn't need to be complex, just something like this so I can tell where their ideas end and yours begin:
 
+```
 // Coding Challenge #11: 3D Terrain Generation with Perlin Noise in Processing
 // https://www.youtube.com/watch?v=IKB1hWWedMk
 ```
