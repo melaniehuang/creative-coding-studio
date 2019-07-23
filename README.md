@@ -1,17 +1,17 @@
 # creative-coding-studio
 Welcome to the Creative Coding studio.
 
-Assessments
+**Assessments**
   - [Tasks 1, 2 & 3](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/assignments.md)
   
-Weekly course material
+**Weekly course material**
   - [Week 1: Intro to Processing and Setup](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
-  - [Week 2](http://yahoo.com/)
-  - [Week 3](http://yahoo.com/)
-  - [Week 4](http://yahoo.com/)
-  - [Week 5](http://yahoo.com/)
-  - [Week 6](http://yahoo.com/)
-  - [Week 7](http://yahoo.com/)
-  - [Week 8](http://yahoo.com/)
-  - [Week 9](http://yahoo.com/)
-  - [Week 10](http://yahoo.com/)
+  - [Week 2](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-02.md)
+  - [Week 3](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-03.md)
+  - [Week 4](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-04.md)
+  - [Week 5](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-05.md)
+  - [Week 6](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-06.md)
+  - [Week 7](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-07.md)
+  - [Week 8](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-08.md)
+  - [Week 9](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-09.md)
+  - [Week 10](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-10.md)
