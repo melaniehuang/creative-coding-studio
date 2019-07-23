@@ -1,21 +1,21 @@
 # Week 1: Setup
 
 ## Join our Slack
-[Join our Slack channel](https://comm2753-cc.slack.com/)
-Using your RMIT email address, join our Slack. This is where you will be able to communicate with the lecturer and each other. This is probably the fastest way to get in touch with me, otherwise, send me an email.
+[Join our Slack channel](https://comm2753-cc.slack.com/) using your RMIT email address. This is where you will be able to communicate with me and each other. This is probably the fastest way to get in touch with me, otherwise, send me an email.
 
-##Download and install Processing 
-[Download the latest version of Processing here](https://processing.org/download/)
-This is where we will be writing all our code.
+## Download and install Processing 
+[Download the latest version of Processing here](https://processing.org/download/). We'll be working with a mixture of Processing and p5.js(Javascript) in class but when you're on your laptop/desktop - this is where we will be writing our code. For now, this is fine - but later on in the semester we may want to use the online editor which I've linked below.
 
-##Join the openProcessing class
+## Join the openProcessing class
 [Join the openProcessing classroom](https://www.openprocessing.org/class/59891)
-You will be supplied with a code to join in class. Please use an obvious name and your RMIT email when signing up.
-This is where we will be submitting our weekly tasks and as a result, sharing what we’ve all been making.
+You will be supplied with a code to join the classroom in class. Please use an obvious name and your RMIT email when signing up. This is where we will be submitting our weekly tasks and as a result, sharing what we’ve all been making. It can be a little incompatible sometimes - but we'll work through it :)
 
-#Week 1: Introduction to Processing
+## p5 Editor
+[Sign up for an account] to write your code in the browser. Create an account and press play. You can only save files when you're logged in. So to make sure you don't lose any work - make sure you're logged in. Once we start to do more intensive sketches that need more processing(mind the pun) power, we'll need to use the desktop editor that you installed above.
 
-##Sketching with code
+# Week 1: Introduction to Processing
+
+## Sketching with code
 The concept of a “sketch” is fundamental to Processing. It introduces a new way of looking at code to encourage the ability to “sketch” with code. 
 
 When we save our sketch file, Processing will save that sketch inside a folder of the same name. For the sketch to run smoothly, you will always need to keep that sketch file (*.pde) inside the folder. Like this:
@@ -24,12 +24,12 @@ When we save our sketch file, Processing will save that sketch inside a folder o
 
 This is how the computer knows where to find your sketch and any files or parts you may reference in your sketch.
 
-##The first square
-
+## The first square
 Functions are like mini programs and the main two functions that exist in Processing are setup() and draw(). setup() runs once at the start of our sketch and draw() runs over and over again on repeat until you press stop. 
 
 Try the following:
-'''processing
+
+```processing
 //This runs once
 void setup(){
   size(900,900);
@@ -40,16 +40,38 @@ void setup(){
 void draw(){
   rect(400,400,100,100);
 }
-'''
+```
 
 Can you describe what is happening in this sketch in plain english?
 Change some numbers and it should become fairly obvious :)
 
-You’ll also notice here that I have included these lines: _//This runs once_ and _//This runs on repeat_. This is what’s known as commenting - the characters “//” that precede the comment tell the computer to ignore this line. You will be using comments to add any inspiration or references you may have used for your sketches.
+You’ll also notice here that I have included these lines: _//This runs once_ and _//This runs on repeat_. This is what’s known as commenting - the characters **//** that precede the comment tell the computer to ignore this line. You will be using comments to add any inspiration or references you may have used for your sketches.
+
+## This part is super important
+```
+You will find a LOT of inspiration online and naturally watch a tonne of tutorials to learn throughout the semester. This is part of the process however - you MUST put your sources in your code commented at the top of your file. It doesn't need to be complex, just something like this so I can tell where their ideas end and yours begin:
+
+// Coding Challenge #11: 3D Terrain Generation with Perlin Noise in Processing
+// https://www.youtube.com/watch?v=IKB1hWWedMk
+```
 
 Try adding your own comment.
 
-An important thing to also realise at this point is that the computer, unlike the English language, can’t assume what you were supposed to say. Therefore, if there’s a character out of place, the code won’t run. Check those commas, brackets and semicolons! Don’t worry too much about this, you will naturally get better at checking for these things the more you write code.
+An important thing to also realise at this point is that the computer, unlike the English language, can’t assume what you were supposed to say. Therefore, if there’s a character out of place, the code won’t run. 
+This:
+```
+//
+```
+is not the same as this:
+```
+\\
+```
+or this:
+```
+/ /
+```
+
+Check those commas, brackets and semicolons! Don’t worry too much about this, you will naturally get better at checking for these things the more you write code.
 
 ##Co-ordinates
 
