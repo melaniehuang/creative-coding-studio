@@ -2,9 +2,7 @@
 Welcome to the Creative Coding studio.
 
 Assessments
-  - [Assessment 1](http://yahoo.com/)
-  - [Assessment 2](http://yahoo.com/)
-  - [Assessment 3](http://yahoo.com/)
+  - [Assessment 1](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/assignments.md)
   
 Weekly course material
   - [Week 1: Intro to Processing and Setup](http://yahoo.com/)
