@@ -1,10 +1,11 @@
 # Week 1: Setup
 
 ## Join our Slack
-[Join our Slack channel](https://comm2753-cc.slack.com/) using your RMIT email address. This is where you will be able to communicate with me and each other. This is probably the fastest way to get in touch with me, otherwise, send me an email.
+[Join our Slack channel](https://join.slack.com/t/creativecodin-9bj1428/shared_invite/enQtNzAzMDgzMzY3NTg0LWQ5NTRjNjcyZGZmZTU3ZGFlZWI0NDk2YjJiYzYzMjY2OTZlODYzNTQ4ZDYwNTEzNGQzODI0Mzg5ZTY1NTEzODc) using your RMIT email address. This is where you will be able to communicate with me and each other. This is probably the fastest way to get in touch with me, otherwise, send me an email.
+This will be the link - for future reference: [https://cc-studio-2019.slack.com/](https://cc-studio-2019.slack.com/)
 
 ## Download and install Processing 
-[Download the latest version of Processing here](https://processing.org/download/). We'll be working with a mixture of Processing and p5.js(Javascript) in class but when you're on your laptop/desktop - this is where we will be writing our code. For now, this is fine - but later on in the semester we may want to use the online editor which I've linked below.
+[Download the latest version of Processing here](https://processing.org/download/). We'll be working with a mixture of Processing and p5.js(Javascript) in class but when you're on your laptop/desktop - this is where we will be writing our code. For now, this is fine - but later on in the semester we may want to write Javascript in the online editor which I've linked below.
 
 ## Join the openProcessing class
 [Join the openProcessing classroom](https://www.openprocessing.org/class/59891)
