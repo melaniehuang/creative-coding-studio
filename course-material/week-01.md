@@ -101,7 +101,6 @@ Now Processing is only one community of programming artists - but you will disco
 [Code goes in, Art comes out - Tyler Hobbs](https://www.youtube.com/watch?v=LBpqoj2nOQo)
 
 ## Saving a file
-
 When we save our sketch file, Processing will save that sketch inside a folder of the same name. For the sketch to run smoothly, you will always need to keep that sketch file (*.pde) inside the folder. Like this:
 **sketch_name > sketch_name.pde**
 This is how the computer knows where to find your sketch and any files or parts you may reference in your sketch.
@@ -132,7 +131,7 @@ You’ll also notice here that I have included these lines: _//This runs once_ a
 ### !! This part is a super important bit !!
 You will find a LOT of inspiration online and naturally watch a tonne of tutorials to learn throughout the semester. I dare you to get through the entire semester without watching one of Daniel Shiffman's Coding Train videos. As Lauren McCarthy eloquently said, learning is part of the process. *However* - you **MUST** put your sources in your code commented at the top of your code. It doesn't need to be complex, just something like this so I can tell where their ideas end and yours begin:
 
-```
+```processing
 // Coding Challenge #11: 3D Terrain Generation with Perlin Noise in Processing
 // https://www.youtube.com/watch?v=IKB1hWWedMk
 ```
@@ -142,15 +141,15 @@ Try adding your own comments.
 An important thing to also realise at this point is that the computer, unlike the English language, can’t assume what you were supposed to say. Therefore, if there’s a character out of place, the code won’t run. 
 
 This:
-```
+```processing
 //
 ```
 is not the same as this:
-```
+```processing
 \\
 ```
 or this:
-```
+```processing
 / /
 ```
 
@@ -162,7 +161,7 @@ To tell the computer where to draw something, you will need to give it an x and 
 
 The top left corner (x,y) is (0,0). The x coordinates increase to the right, the y coordinates INCREASE moving down the canvas.
 
-```
+```processing
 (0,0)___________ (900,0)
 |                      |
 |                      |
@@ -175,7 +174,7 @@ The top left corner (x,y) is (0,0). The x coordinates increase to the right, the
 ```
 
 Therefore rect() accepts the following 4 parameters:
-```
+```processing
 //rect(x, y, width, height);
 rect(0, 0, 200, 200);
 ```
@@ -187,21 +186,21 @@ Now, let’s add some colour!
 ## Sequence, colour and fill
 
 So to add a fill to the rectangle, we need to add a line _above_ our rect() function:
-```
+```processing
 fill(169,225,250);
 ```
 
 By default, Processing interprets your numbers as RGB colours - the amount of red, green and blue you want to mix into a single colour. When we write something like:
-```
+```processing
 fill(255);
 ```
 the computer is actually interpreting that to be:
-```
+```processing
 fill(255,255,255); 
 ```
 
 **Try the following:**
-```
+```processing
 void setup(){
   size(900,900);
   background(248,250,169);
@@ -216,19 +215,64 @@ void draw(){
 Under **Tools > Colour Selector**, you can choose your own RGB colours. We will delve more into colours and what the numbers all mean later in the semester. For now, just copy and paste the R, G and B values as comma-separated numbers like the example above.
 
 In addition, let’s remove that awful black stroke. By default:
-``` 
+```processing
 stroke(0); 
 ```
 is applied to all 2D Primitives. In the setup() function, include the line:
-```
+```processing
 noStroke();
 ```
 
 What if we wanted to add another rectangle? One with a stroke and one without? Have a go.
 
+## Using the Processing reference
+We will go into depth about shapes post exhibition - but for the next exercise we're going to look at circles and/or ellipses. Now it may seem that "coders" just seem to type things in that they've memorised but a big part of coding is looking up the reference docs as there is simply too much to just "remember". 
+[View Processing's reference docs](https://processing.org/reference/)
 
-## Uploading your weekly exercises
+Let's find how to create a circle or ellipse.
+1. Search the page for what you think it might be called. In this case, circle() and ellipse().
+2. Read the docs. It's really that straight forward in Processing as they have done a lot of work to make the documentation as friendly as possible.
+[circle()](https://processing.org/reference/circle_.html)
+[ellipse()](https://processing.org/reference/ellipse_.html)
 
+The two parts you're looking for are:
+The **example** code - the one you can just copy, paste and manipulate:
+```processing
+ellipse(56, 46, 55, 55);
+```
+and the **syntax** on how to use that function:
+```processing
+ellipse(a, b, c, d)
+/*	
+a	- float: x-coordinate of the ellipse
+b	- float: y-coordinate of the ellipse
+c	- float: width of the ellipse by default
+d	- float: height of the ellipse by default
+*/
+```
+So in human terms, by default, this means:
+```processing
+ellipse(x-coordinate of centre point, y-coordinate of centre point, ellipse width, ellipse height)
+```
+
+# Weekly exercise
+So that's enough blabbering. Let's start by trying!
+In celebration of our NGV visit next week, let's use an Alexander Calder mobile as inspiration.
+
+![](https://github.com/melaniehuang/creative-coding-studio/edit/master/images/week-01-001.jpg)
+Alexander Calder
+American 1898–1976
+_Gamma(1947)_
+painted sheet metal and steel wire
+147.3 x 213.3 x 94.4 cm
+Collection of Jon Shirley
+© 2019 Calder Foundation, New York/Copyright Agency, Australia
+
+Use Alexander Calder's work aestethically as your inspiration. 
+
+Draw at least 2 x 2D primitives to the screen in an interesting way. Use colours other than grayscale. Add your name as a comment at the top of the sketch for good practice. If you use any of his artworks or other tutorials as a reference, please include these also in your comments. If you do not use any particular artwork and/or other tutorials, please add a comment acknowledging that you "did not use any additional material" for inspiration.
+
+# Uploading your weekly exercises
 1. Go to [openProcessing](https://www.openprocessing.org/) and log in.
 2. Navigate to **“Sketches”** and select **“Create a Sketch”**.
 3. On the far right panel, make sure your “mode” is set to **“Processing.js”**. This will save you from having to translate your code into Javascript manually(most of the time!).
@@ -237,4 +281,3 @@ What if we wanted to add another rectangle? One with a stroke and one without? H
 6. Scroll down to the week that you want to submit for and hit **“Add Sketch”**.
 7. Select your newly uploaded sketch and hey presto, we’ve submitted our first weekly exercise :)
 8. Make sure that **“Who can see it”** is set to **Anyone** or **Me & My Classes** in addition to **“Hide Source Code”** being set to **Off**.
- 
