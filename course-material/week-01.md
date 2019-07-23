@@ -166,7 +166,8 @@ Let's find how to create a circle or ellipse.
 [circle()](https://processing.org/reference/circle_.html)
 [ellipse()](https://processing.org/reference/ellipse_.html)
 
-The two parts you're looking for are:
+The two parts you're looking for are...
+
 The **example** code - the one you can just copy, paste and manipulate:
 ```processing
 ellipse(56, 46, 55, 55);
