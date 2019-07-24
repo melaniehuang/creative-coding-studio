@@ -156,6 +156,18 @@ void draw(){
 }
 ```
 
+```javascript
+function setup(){
+  createCanvas(900,900);
+  background(248,250,169);
+}
+
+function draw(){
+  fill(169,225,250);
+  rect(400,400,100,100);
+}
+```
+
 Under **Tools > Colour Selector**, you can choose your own RGB colours. We will delve more into colours and what the numbers all mean later in the semester. For now, just copy and paste the R, G and B values as comma-separated numbers like the example above.
 
 In addition, let’s remove that awful black stroke. By default:
