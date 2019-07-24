@@ -54,6 +54,19 @@ void draw(){
 }
 ```
 
+```javascript
+//This runs once
+function setup(){
+  createCanvas(900,900);
+  background(0);
+}
+
+//This runs on repeat
+function draw(){
+  rect(400,400,100,100);
+}
+```
+
 Can you describe what is happening in this sketch in plain english?
 Change some numbers and it should become fairly obvious :)
 
