@@ -139,6 +139,20 @@ void draw(){
 }
 ```
 
+Now we have some crazy drawing tool that draws the current position of your mouse’s x-coordinate and y-coordinate. If we want it to appear like the ellipse is moving, we draw the background at the start of the draw() loop.
+
+```processing
+void setup(){
+  size(900,900);
+  background(255);
+}
+
+void draw(){
+  background(255);
+  ellipse(mouseX, mouseY, 50, 50); 
+}
+```
+Now we just have an ellipse following our mouse x and y. This is because we're essentially drawing a background on top of the previous frame.
 
 ## Joan Miró
 A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though divided by an ocean and World War II, they created continued on remarkably like-minded trajectories. And if you like one, I can guarentee you'll probably like the other ;)
