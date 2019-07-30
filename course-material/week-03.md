@@ -76,7 +76,7 @@ void draw(){
 }
 ```
 
-Then we've also added the paramater "CLOSE" to indicate that we want a closed shape. So we can make this strobe explosion! Warning: eyes.
+Then we've also added the paramater "CLOSE" to indicate that we want a closed shape. So we can make this strobe explosion! Warning: eyes. Hide the ugly stroke with noStroke(); in setup().
 
 ```processing
 void setup(){
@@ -118,6 +118,26 @@ void draw(){
 
 ### Try to create your own unique shape. How can you manipulate it?
 There are also a bunch of different [beginShape()](https://processing.org/reference/beginShape_.html) parameters you can discover like beginShape(TRIANGLE_STRIP);. Perhaps you also want a contour ie. [beginContour()](https://processing.org/reference/PShape_beginContour_.html). NB: The vertex of shapes goes clockwise, the vertex of a contour goes counter-clockwise.
+
+## Movement
+Now that we're confident with shapes, let's try and make something move.
+
+Up to this point we have been “hard coding” values into our program. This means when we draw a rect(10,10,100,100);, our program is drawing a rectangle on top of itself again and again and AGAIN. Boring!
+
+By replacing the value with a variable and incrementing/decrementing that variable each time our program calls the function draw(), we can start to add movement to our shapes.
+
+Before we dive into what a “variable” can be - let’s try this:
+
+```processing
+void setup(){
+  size(900,900);
+  background(255);
+}
+
+void draw(){
+  ellipse(mouseX, mouseY, 50, 50); 
+}
+```
 
 
 ## Joan Miró
