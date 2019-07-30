@@ -117,7 +117,7 @@ void draw(){
 ```
 
 **Try to create your own unique shape. How can you manipulate it?**
-
+There are also a bunch of different [beginShape()](https://processing.org/reference/beginShape_.html) parameters you can discover like beginShape(TRIANGLE_STRIP);. Perhaps you also want a contour ie. [beginContour()](https://processing.org/reference/PShape_beginContour_.html).
 
 ## Joan Miró
 A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though divided by an ocean and World War II, they created continued on remarkably like-minded trajectories. And if you like one, I can guarentee you'll probably like the other ;)
