@@ -40,7 +40,7 @@ void draw(){
 }
 ```
 
-Now we add in each x and y value for each vertex of our shape.
+Now we add in each x and y value for each vertex of our shape. This can be a strenuous task however it does start to pay off once you can start manipulating those shapes with code.
 
 ```processing
 void setup(){
@@ -76,22 +76,7 @@ void draw(){
 }
 ```
 
-Then we also add the paramater "CLOSE" to indicate that we want a closed shape. So we can make a strobe explosion! Warning: eyes.
-
-```processing
-void setup(){
-  size(900,900);
-  background(255);
-}
-
-void draw(){
-  beginShape();
-    //vertex(x,y);
-  endShape();
-}
-```
-
-Now we add in each x and y value for each vertex of our shape.
+Then we've also added the paramater "CLOSE" to indicate that we want a closed shape. So we can make this strobe explosion! Warning: eyes.
 
 ```processing
 void setup(){
@@ -130,6 +115,8 @@ void draw(){
   ellipse(600,620,500,500);
 }
 ```
+
+**Try to create your own unique shape. How can you manipulate it?**
 
 
 ## Joan Miró
