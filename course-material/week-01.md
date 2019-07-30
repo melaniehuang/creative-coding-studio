@@ -233,11 +233,5 @@ Week | Exercise |
 1 | Use Alexander Calder's work aestethically as your inspiration. Draw at least two different x 2D primitives to the screen in an interesting way. Use colour/s other than grayscale. Add your name as a comment at the top of the sketch for good practice. If you use any of his artworks or other tutorials as a reference, please include these also in your comments. If you do not use any particular artwork and/or other tutorials, please add a comment acknowledging that you "did not use any additional material" for inspiration. |
 
 # Uploading your weekly exercises
-1. Go to [openProcessing](https://www.openprocessing.org/) and log in.
-2. Navigate to **“Sketches”** and select **“Create a Sketch”**.
-3. On the far right panel, make sure your “mode” is set to **“Processing.js”**. This will save you from having to translate your code into Javascript manually(most of the time!).
-4. Copy and paste your code from Processing to the light grey box and hit **Save**.
-5. Go to “My Feed” and navigate to **“Classes”**.
-6. Scroll down to the week that you want to submit for and hit **“Add Sketch”**.
-7. Select your newly uploaded sketch and hey presto, we’ve submitted our first weekly exercise :)
-8. Make sure that **“Who can see it”** is set to **Anyone** or **Me & My Classes** in addition to **“Hide Source Code”** being set to **Off**.
+~~1. Go to [openProcessing](https://www.openprocessing.org/) and log in.
+2. Navigate to **“Sketches”** and select **“Create a Sketch”**.3. On the far right panel, make sure your “mode” is set to **“Processing.js”**. This will save you from having to translate your code into Javascript manually(most of the time!).4. Copy and paste your code from Processing to the light grey box and hit **Save**.5. Go to “My Feed” and navigate to **“Classes”**.6. Scroll down to the week that you want to submit for and hit **“Add Sketch”**.7. Select your newly uploaded sketch and hey presto, we’ve submitted our first weekly exercise :)8. Make sure that **“Who can see it”** is set to **Anyone** or **Me & My Classes** in addition to **“Hide Source Code”** being set to **Off**.~~
