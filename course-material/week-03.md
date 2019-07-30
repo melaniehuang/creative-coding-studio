@@ -244,6 +244,17 @@ Local variables will be useful soon. However, for now, make sure you’re declar
 Make a global variable called ‘s’ and use it to increment or decrement the size of your ellipse! 
 
 ## Joan Miró
-A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though [divided by an ocean and World War II](https://www.nytimes.com/2017/04/20/arts/design/miro-calder-and-a-convergence-of-constellations.html), they created continued on remarkably like-minded trajectories. And if you like one, I can guarentee you'll probably like the other ;)
+A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though [divided by an ocean and World War II](https://www.nytimes.com/2017/04/20/arts/design/miro-calder-and-a-convergence-of-constellations.html), they continued on a remarkably like-minded trajectory to one another. And if you like one, I can guarentee you'll probably like the other ;)
 
-Take a look at [Dog Barking at the Moon(1926)](https://www.joan-miro.net/dog-barking-at-the-moon.jsp). Take a look at how strange yet somewhat familiar the dog looks! Or take a look at [Painting(1933)](https://www.joan-miro.net/painting-1933.jsp) and look at the human figures! Or even deeper still, [Le Fermier et son epouse(The Farmer and his wife)(1936)](https://www.joan-miro.net/le-fermier-et-son-epouse.jsp) with two dancing human bodies and collection of animals.
+Take a look at [Dog Barking at the Moon(1926)](https://www.joan-miro.net/dog-barking-at-the-moon.jsp). Take a look at how strange yet somewhat familiar the dog looks! Or take a look at [Painting(1933)](https://www.joan-miro.net/painting-1933.jsp) and look at the human figures! Or even deeper still into the Miró aestethic, [Le Fermier et son epouse(The Farmer and his wife)(1936)](https://www.joan-miro.net/le-fermier-et-son-epouse.jsp) with two dancing human bodies and collection of odd headed animals.
+
+## Week 3 sketch
+Week | Exercise |
+--- | --- |
+3 | Create a Miró inspired human or animal portrait with at least one moving element. Use incrementing and/or decrementing variables to make the forms dance. 
+
+Have fun with it!! Maybe you want to use random(); or maybe instead of always incrementing by 1 - you want to increment by 17.32*y ?!
+
+Punch in some maths like you used to punch in parameters. The world is your oyster.
+
+Remember to add, as a comment, which Miró artwork you've got your inspiration from.|
