@@ -7,10 +7,10 @@ This will be the link - for future reference: [https://cc-studio-2019.slack.com/
 ## Download and install Processing 
 [Download the latest version of Processing here](https://processing.org/download/). We'll be working with a mixture of Processing and p5.js(Javascript) in class but when you're on your laptop/desktop - this is where we will be writing our code. For now, this is fine - but later on in the semester we may want to write Javascript in the online editor which I've linked below.
 
-~~## Join the openProcessing class
-[Join the openProcessing classroom](https://www.openprocessing.org/class/59891)
+## Join the openProcessing class
+~~[Join the openProcessing classroom](https://www.openprocessing.org/class/59891)
 You will be supplied with a code to join the classroom in class. Please use an obvious name and your RMIT email when signing up. This is where we will be submitting our weekly tasks and as a result, sharing what we’ve all been making. It can be a little incompatible sometimes - but we'll work through it :)~~
-Edit: This was not working too well in the new computer labs. Let's park this for now and rather just zip up our Processing sketches for submissions.
+**Edit: This was not working too well in the new computer labs. Let's park this for now and rather just zip up our Processing sketches for submissions.**
 
 ## p5 Editor
 [Sign up for an account](https://editor.p5js.org/) to write your code in the browser. Create an account and press play. You can only save files when you're logged in. So to make sure you don't lose any work - make sure you're logged in. Once we start to do more intensive sketches that need more processing(mind the pun) power, we'll need to use the desktop editor that you installed above.
