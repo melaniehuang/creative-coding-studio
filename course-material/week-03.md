@@ -251,10 +251,4 @@ Take a look at [Dog Barking at the Moon(1926)](https://www.joan-miro.net/dog-bar
 ## Week 3 sketch
 Week | Exercise |
 --- | --- |
-3 | Create a Miró inspired human or animal portrait with at least one moving element. Use incrementing and/or decrementing variables to make the forms dance. 
-
-Have fun with it!! Maybe you want to use random(); or maybe instead of always incrementing by 1 - you want to increment by 17.32*y ?!
-
-Punch in some maths like you used to punch in parameters. The world is your oyster.
-
-Remember to add, as a comment, which Miró artwork you've got your inspiration from.|
+3 | Create a Miró inspired human or animal portrait with at least one moving element. Use incrementing and/or decrementing variables to make the forms dance. Have fun with it!! Maybe you want to use random(); or maybe instead of always incrementing by 1 - you want to increment by 17.32*y?! Punch in some maths like you used to punch in parameters. The world is your oyster. Remember to add, as a comment, which Miró artwork you've got your inspiration from. |
