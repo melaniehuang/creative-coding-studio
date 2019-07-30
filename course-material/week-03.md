@@ -116,7 +116,9 @@ void draw(){
 }
 ```
 
-### Try to create your own unique shape. How can you manipulate it?
+### Exercise
+Try to create your own unique shape. How can you manipulate it?
+
 There are also a bunch of different [beginShape()](https://processing.org/reference/beginShape_.html) parameters you can discover like beginShape(TRIANGLE_STRIP);. Perhaps you also want a contour ie. [beginContour()](https://processing.org/reference/PShape_beginContour_.html). NB: The vertex of shapes goes clockwise, the vertex of a contour goes counter-clockwise.
 
 ## Movement
@@ -238,7 +240,8 @@ Nothing! This is because everytime you call the function draw(); it sets x to 50
 
 Local variables will be useful soon. However, for now, make sure you’re declaring your variables at the top of your program, outside of any function.
 
-### Make a global variable called ‘s’ and use it to increment or decrement the size of your ellipse! 
+### Exercise
+Make a global variable called ‘s’ and use it to increment or decrement the size of your ellipse! 
 
 ## Joan Miró
 A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though divided by an ocean and World War II, they created continued on remarkably like-minded trajectories. And if you like one, I can guarentee you'll probably like the other ;)
