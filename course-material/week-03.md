@@ -187,7 +187,16 @@ float p = x + y;
 println(p);
 ```
 
-So even through we may "know" as humans, there's a way of doing that ie. 2.342 + 1 = 3.342. Or perhaps in the first example if it needed to be an **int** value - we'd round to the closest integer therefore 2.342 + 1 would round to 3. Our computers aren't humans like that - we have to be more specific in Processing.
+And this **will** work but not produce the most expected result. ie. p = 2.3421 :/
+
+```processing
+String x = "2.342";
+int y = 1;
+String p = x + y;
+println(p);
+```
+
+So even through we may "know" as humans, there's a way of adding those two numbers together ie. 2.342 + 1 = 3.342. Or perhaps in the first example if it needed to be an **int** value - we'd round to the closest integer therefore 2.342 + 1 would round to 3. Our computers aren't humans like that - we have to be more specific in Processing.
 
 But enough theory, we’ll learn by doing!
 
