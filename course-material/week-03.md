@@ -152,7 +152,44 @@ void draw(){
   ellipse(mouseX, mouseY, 50, 50); 
 }
 ```
+
 Now we just have an ellipse following our mouse x and y. This is because we're essentially drawing a background on top of the previous frame.
+
+mouseX and mouseY are examples of a system variable. This is a variable that Processing understands already. But of course, we can make our own variables!
+
+## Variables
+First off, we need to talk about **data types**. In order for the computer to understand what kind of value it’s dealing with, you need to tell the computer what “type” of variable you’re going to be giving it. The main ones you’ll be dealing with at this early stage are:
+
+**float**: Floating-point numbers, e.g. numbers that have a decimal point.
+**int**: Integers, whole numbers aka numbers without a decimal point
+**char**: Characters, typographic symbols such as A, d, and $. A char stores letters and symbols in the Unicode format(a computer standard for the consistent encoding, representation, and handling of text)
+**String**: A string is a sequence of characters.
+**color** - You guessed it, a datatype for handling colours. Note the lack of “u” in colour (this is a common type error when your code doesn’t run for us Aussies).
+
+You will notice that majority of the shape parameters accept the “float” data type. Most of the time, you will need to make sure when doing calculations that you aren’t adding a **String** to a **float** for example - this will either not work or come up with something strange.
+
+For example, this will not work:
+
+```processing
+float x = 2.342;
+int y = 1;
+int p = x + y;
+println(p);
+```
+
+The console will read “cannot convert from float to int”. 
+But this **will** work.
+
+```processing
+float x = 2.342;
+int y = 1;
+float p = x + y;
+println(p);
+```
+
+So even through we may "know" as humans, there's a way of doing that ie. 2.342 + 1 = 3.342. Or perhaps in the first example if it needed to be an **int** value - we'd round to the closest integer therefore 2.342 + 1 would round to 3. Our computers aren't humans like that - we have to be more specific in Processing.
+
+But enough theory, we’ll learn by doing!
 
 ## Joan Miró
 A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though divided by an ocean and World War II, they created continued on remarkably like-minded trajectories. And if you like one, I can guarentee you'll probably like the other ;)
