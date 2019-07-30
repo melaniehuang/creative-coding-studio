@@ -200,6 +200,46 @@ So even through we may "know" as humans, there's a way of adding those two numbe
 
 But enough theory, we’ll learn by doing!
 
+## Global variables and local variables
+Let’s get our trusty circle back. We want what’s called a “global” variable that will increase each time the function draw() is called. This will create what I term the “smudge” effect.
+
+```processing
+//I am a global variable, I'm available for every part of the sketch.
+float x = 50.0;
+
+void setup(){
+  size(300,300);
+}
+
+void draw(){
+  ellipse(x, 50, 50, 50); 
+  //Increment variable x by 1
+  x++;
+}
+```
+
+A local variable is contained within a function and is only available in this function. Therefore, in the below program, the function setup(); does not know about x. Let’s see what happens when you use a local variable... 
+
+```processing
+void setup(){
+  size(300,300);
+}
+
+void draw(){
+  //I am a local variable, I belong to draw() and only draw() knows about me!
+  float x = 50.0;
+  ellipse(x, 50, 50, 50); 
+  //Decrement variable x by 1
+  x--;
+}
+```
+
+Nothing! This is because everytime you call the function draw(); it sets x to 50.0 and decrements it by 1. Repeat.
+
+Local variables will be useful soon. However, for now, make sure you’re declaring your variables at the top of your program, outside of any function.
+
+### Make a global variable called ‘s’ and use it to increment or decrement the size of your ellipse! 
+
 ## Joan Miró
 A close friend of Alexander Calder was [Joan Miró](https://en.wikipedia.org/wiki/Joan_Mir%C3%B3), a Spanish painter, sculptor, and ceramicist. Though divided by an ocean and World War II, they created continued on remarkably like-minded trajectories. And if you like one, I can guarentee you'll probably like the other ;)
 
