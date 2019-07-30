@@ -25,7 +25,7 @@ void draw(){
 
 But let's say we're a little more ambitious and we want to make a big spikey explosion type shape?! Let's draw our own shapes!
 
-The first thing we need to do is type beginShape(); and endShape(); - This tells Processing "Hey Processing, the next few vertices that I specify, will be vertexes for my shape.
+The first thing we need to do is type beginShape(); and endShape(); - This tells Processing "Hey Processing, the next few vertices that I specify, will be vertices for my shape.
 
 ```processing
 void setup(){
