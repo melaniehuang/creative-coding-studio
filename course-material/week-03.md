@@ -116,7 +116,7 @@ void draw(){
 }
 ```
 ### Contours and bezierVertex
-Let's consult the Processing reference and look at beginContour() and bezierVertex while we're at it. Let's try them together.
+Let's consult the Processing reference and look at [beginContour()](https://processing.org/reference/beginContour_.html) and [bezierVertex()](https://processing.org/reference/bezierVertex_.html) while we're at it. Let's try them together.
 
 ### Exercise
 Try to create your own unique shape. How can you manipulate it?
