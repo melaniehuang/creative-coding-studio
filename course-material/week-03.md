@@ -115,6 +115,8 @@ void draw(){
   ellipse(600,620,500,500);
 }
 ```
+### Contours and bezierVertex
+Let's consult the Processing reference and look at beginContour() and bezierVertex while we're at it. Let's try them together.
 
 ### Exercise
 Try to create your own unique shape. How can you manipulate it?
