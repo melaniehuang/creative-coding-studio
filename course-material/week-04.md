@@ -37,6 +37,15 @@ beginShape();
 endShape();
 ```
 
+Filling and colouring those shapes:
+
+```processing
+//We define the colours of our shape BEFORE we draw the shape
+fill(255,220,100);
+stroke(200,20,100);
+rect(x,y,w,h);
+```
+
 Adding some randomness:
 
 ```processing
