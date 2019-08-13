@@ -68,7 +68,7 @@ width
 height
 ```
 
-And about making our own.
+And about making our own both globally...
 
 ```processing
 //global variables
@@ -83,6 +83,7 @@ void draw(){
   xPosition++;
 }
 ```
+and locally...
 
 ```processing
 void setup(){
@@ -102,7 +103,7 @@ void draw(){
 //They don't know about each other because they live in different functions.
 ```
 
-And then we used that to make a circle move.
+And then we used this knowledge to make a circle move.
 
 ```processing
 float xPosition = 10;
