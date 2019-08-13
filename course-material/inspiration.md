@@ -15,6 +15,8 @@ Samia Halaby
 https://www.instagram.com/samiahalaby_artist/
 
 # Contemporary Practitioners
+Lauren McCarthy
+http://lauren-mccarthy.com/
 
 Casey Reas
 http://reas.com/
