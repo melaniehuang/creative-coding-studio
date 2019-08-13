@@ -3,15 +3,12 @@ I'll be compiling all my favourites, from computer art pioneers of the 1960s and
 # Computer Art Pioneers
 
 Vera Molnar
-https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r
 http://www.artnet.com/artists/vera-molnar/
 
 Manfred Mohr
-https://en.wikipedia.org/wiki/Manfred_Mohr
 http://www.artnet.com/artists/manfred-mohr/
 
 Harold Cohen and AARON
-https://en.wikipedia.org/wiki/Harold_Cohen_(artist)
 http://www.artnet.com/artists/harold-cohen/
 
 Samia Halaby
