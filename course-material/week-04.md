@@ -1,6 +1,4 @@
-# Week 4: Images and text
-
-## Recap!
+# Recap!
 So we've learnt some very core fundementals about Processing and there's been a lot of information thrown at you - so let's do a quick recap of the bits that we've covered.
 
 ### Core sketch flow
@@ -137,6 +135,8 @@ void draw(){
   }
 }
 ```
+
+# Week 4: Images and text
 
 ## Uploading an image
 We will learn more about the fabulous ways of manipulating an image in Week 7/8/9 but for now we will learn simply how to display an image.
