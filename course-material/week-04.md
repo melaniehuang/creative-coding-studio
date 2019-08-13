@@ -175,14 +175,15 @@ What we're going to do now, is copy a block of pixels from one place to another.
 
 ```processing
 /* source and destination where:
-sx = source x 
-sy = source y
-sw = source width 
-sh = source height
-dx = destination x 
-dy = destination y
-dw = destination width 
-dh = destination height */
+dh	int: destination image height
+sx = X coordinate of the source's upper left corner
+sy = Y coordinate of the source's upper left corner
+sw = source image width
+sh = source image height
+dx = X coordinate of the destination's upper left corner
+dy = Y coordinate of the destination's upper left corner
+dw = destination image width 
+dh = destination image height */
 copy(sx, sy, sw, sh, dx, dy, dw, dh);
 ```
 
@@ -429,7 +430,7 @@ void draw(){
 }
 ```
 
-And then maybe, we're just having fun and we want to copy THAT canvas again onto itself?!
+And then maybe, we're just having fun and we want to copy THAT image again onto itself?!
 
 ```processing
 PImage artwork;
@@ -459,12 +460,14 @@ void setup(){
 
 void draw(){
   copy(50,50,400,400,50+50,50+50,300,300);
-  copy(0, int(random(height)), width, 5, 0, int(random(height)), width, 5);
+  copy(artwork,0, int(random(height)), width, 5, 0, int(random(height)), width, 5);
 }
 ```
 
-Weekly sketch: Make a mosaic with image and text using the copy() function. Which image and what the text says is completely up to you. Push yourself out of the box of what you can imagine and design and have fun with it. The next couple of weeks are going to be all about experimentation and playfullness to explore the possibilities and opportunities of creative coding to expand your creative practice.
-
+## Week 2 sketch
+Week | Exercise |
+--- | --- |
+4 | Make a mosaic with image and text using the copy() function. Which image and what the text says is completely up to you. Push yourself out of the box of what you can imagine and design and have fun with it. The next couple of weeks are going to be all about experimentation and playfullness to explore the possibilities and opportunities of creative coding to expand your creative practice.|
 
 
 
