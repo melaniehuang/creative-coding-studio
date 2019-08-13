@@ -464,11 +464,7 @@ void draw(){
 }
 ```
 
-## Week 2 sketch
+## Week 4 sketch
 Week | Exercise |
 --- | --- |
 4 | Make a mosaic with image and text using the copy() function. Which image and what the text says is completely up to you. Push yourself out of the box of what you can imagine and design and have fun with it. The next couple of weeks are going to be all about experimentation and playfullness to explore the possibilities and opportunities of creative coding to expand your creative practice.|
-
-
-
-
