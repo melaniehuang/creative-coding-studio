@@ -149,7 +149,7 @@ Last week we learnt about some common datatypes like String and int. In order to
 ## Local image
 Make a folder called “data” where your Processing sketch is stored. Place your image file inside here. Processing can display .gif, .jpg, .tga, and .png images.
 
-![](image url)
+![File system](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-04-001.png)
 
 You can now tell the computer where you've stored it.
 
