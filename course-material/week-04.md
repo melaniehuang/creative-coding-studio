@@ -20,6 +20,9 @@ void draw(){
 // https://www.youtube.com/watch?v=7btNir5L8Jc
 ```
 
+### Looking up the Processing reference to find things
+[Processing's reference docs](https://processing.org/reference/)
+
 ### Drawing shapes
 Coordinates start at the top left (0,0) and x increases to the right, y increases to the bottom.
 
