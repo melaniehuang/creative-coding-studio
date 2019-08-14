@@ -464,6 +464,79 @@ void draw(){
 }
 ```
 
+If your computer is crashing and not wanting to create a font file - we can do this with code!
+First we need to find out the file name of our font.
+
+```processing
+void setup(){
+  //print out all the font file names installed on your computer
+  println(PFont.list());
+}
+```
+
+This should print out a giant list of names. Find the one you want - in my case I'm going to use "ComicSansMS" as an example.
+
+```processing
+//This should appear in the console.
+...Chalkboard Chalkboard-Bold ChalkboardSE-Bold ChalkboardSE-Light ChalkboardSE-Regular Chalkduster Charter-Black Charter-BlackItalic Charter-Bold Charter-BoldItalic Charter-Italic Charter-Roman Cochin Cochin-Bold Cochin-BoldItalic Cochin-Italic ComicSansMS ComicSansMS-Bold Copperplate Copperplate-Bold Copperplate-Light CorsivaHebrew CorsivaHebrew-Bold Courier Courier-Bold Courier-BoldOblique Courier-Oblique CourierNewPS-BoldItalicMT CourierNewPS-BoldMT CourierNewPS-ItalicMT CourierNewPSMT Cousine-Bold Cousine-BoldItalic Cousine-Italic Cousine-Regular DINAlternate-Bold DINCondensed-Bold...
+```
+
+```processing
+PFont myNewTypeface;
+
+void setup(){
+  size(500,500);
+  background(255);
+  //print out all the font file names installed on your computer
+  println(PFont.list());
+  //Instead of "loading" a font - create a font
+  myNewTypeface = createFont("ComicSansMS", 120);
+  textFont(myNewTypeface);
+
+  fill(0);
+  textSize(100);
+  textAlign(CENTER);
+  text("Calder",width/2,465);
+}
+
+void draw(){
+}
+```
+
+So let's try this in situ of the last example we did:
+
+```processing
+PImage artwork;
+String artistName = "CALDER";
+//Declare your font type
+PFont SupriaCondensed;
+
+void setup(){
+  size(500,500);
+  background(255);
+  artwork = loadImage("data/calder.jpg");
+  image(artwork,50,50,400,400); 
+  
+  //create the font you want instead!
+  SupriaCondensed = createFont("SupriaSans-CondHeavy", 100);
+  textFont(SupriaCondensed);
+
+  fill(0);
+  textSize(100);
+  textAlign(CENTER);
+
+  //adjust the placement of your text
+  text(artistName,width/2,465);
+  text(artistName,width/2,110);
+}
+
+void draw(){
+  copy(50,50,400,400,50+50,50+50,300,300);
+  copy(artwork,0, int(random(height)), width, 5, 0, int(random(height)), width, 5);
+}
+```
+
+
 ## Week 4 sketch
 Week | Exercise |
 --- | --- |
