@@ -281,7 +281,7 @@ void keyPressed(){
 } 
 ```
 
-This will save a single image. If there’s already an image called “mySavedImage.png” in the saved folder, it will replace the image. If we want to capture multiple frames at once, we can usethes​aveFrame()​functioninstead.T​ rysavingframesinstead.
+This will save a single image. If there’s already an image called “mySavedImage.png” in the saved folder, it will replace the image. If we want to capture multiple frames at once, we can use the saveFrame() function instead. Try saving frames instead.
 
 ## Week 5 sketch
 Week | Exercise |
