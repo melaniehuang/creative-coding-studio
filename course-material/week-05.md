@@ -170,19 +170,17 @@ colorList[0];
 Let’s see what this looks like.
 
 ```processing
-color[] colorList = {
-  color(320,100,100),
-  color(20,90,100),
-  color(180,80,100),
-  color(220,80,100),
-  color(280,80,100),
-  color(300,80,100)
-};
+color[] colorList = new color[4];
 
 void setup(){
   colorMode(HSB,360,100,100);
   size(900,900);
   noStroke();
+  
+  colorList[0] = color(320,100,100);
+  colorList[1] = color(20,90,100);
+  colorList[2] = color(180,80,100);
+  colorList[3] = color(220,80,100);
 }
 void draw(){
   background(colorList[0]);
