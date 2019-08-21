@@ -193,25 +193,24 @@ void draw(){
 And so now, as a natural progression of course, we want to grab a random color in the palette every time we click our mouse. Try this baby:
 
 ```processing
-color[] colorList = {
-  color(320,100,100),
-  color(20,90,100),
-  color(180,80,100), 
-  color(220,80,100),
-  color(280,80,100)
-};
+color[] colorList = new color[4];
 
 void setup(){
   colorMode(HSB,360,100,100);
   size(900,900);
   noStroke();
+  
+  colorList[0] = color(320,100,100);
+  colorList[1] = color(20,90,100);
+  colorList[2] = color(180,80,100);
+  colorList[3] = color(220,80,100);
 }
 
 void draw(){}
 
 void mousePressed(){
-  background(colorList[random(6)]);
-  fill(colorList[random(6)]);
+  background(colorList[random(4)]);
+  fill(colorList[random(4)]);
   ellipse(width/2, height/2, 800,800);
 }
 ```
@@ -221,25 +220,24 @@ Eep! **Cannot convert from float to int**
 Oh no! Wondering what this is? This is because random() does not accept whole numbers(ie. int) - it only accepts float values. However, we have a problem - An Array only accept integers as it’s positions. What to do?! Time for a little float conversion with the int() function.
 
 ```processing
-color[] colorList = {
-  color(320,100,100),
-  color(20,90,100),
-  color(180,80,100), 
-  color(220,80,100),
-  color(280,80,100)
-};
+color[] colorList = new color[4];
 
 void setup(){
   colorMode(HSB,360,100,100);
   size(900,900);
   noStroke();
+  
+  colorList[0] = color(320,100,100);
+  colorList[1] = color(20,90,100);
+  colorList[2] = color(180,80,100);
+  colorList[3] = color(220,80,100);
 }
 
 void draw(){}
 
 void mousePressed(){
-  background(colorList[int(random(5))]);
-  fill(colorList[int(random(5))]);
+  background(colorList[int(random(4))]);
+  fill(colorList[int(random(4))]);
   ellipse(width/2, height/2, 800,800);
 }
 ```
@@ -252,25 +250,24 @@ This is because random returns a value, in this case from 0 to 5, not including 
 The last step this week in curating our sketches, is to be able to save our canvas into a image when we’re happy with it. You will use this to create your two static images for Task 1. Create a folder called “saved”. To save an image to our folder only when we hit a key on our keyboard, let’s try the following:
 
 ```processing
-color[] colorList = {
-  color(320,100,100),
-  color(20,90,100),
-  color(180,80,100), 
-  color(220,80,100),
-  color(280,80,100)
-};
+color[] colorList = new color[4];
 
 void setup(){
   colorMode(HSB,360,100,100);
   size(900,900);
   noStroke();
+  
+  colorList[0] = color(320,100,100);
+  colorList[1] = color(20,90,100);
+  colorList[2] = color(180,80,100);
+  colorList[3] = color(220,80,100);
 }
 
 void draw(){}
 
 void mousePressed(){
-  background(colorList[int(random(5))]);
-  fill(colorList[int(random(5))]);
+  background(colorList[int(random(4))]);
+  fill(colorList[int(random(4))]);
   ellipse(width/2, height/2, 800,800);
 }
 
