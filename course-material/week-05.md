@@ -278,6 +278,12 @@ void keyPressed(){
 
 This will save a single image. If there’s already an image called “mySavedImage.png” in the saved folder, it will replace the image. If we want to capture multiple frames at once, we can use the saveFrame() function instead. Try saving frames instead.
 
+## Escher + LeWitt references
+[Generative Patterns x Escher](https://drive.google.com/file/d/1hO4atW1oKEEEEzgbT9eQzt-mWIyeflJo/view?usp=sharing)
+[Sol LeWitt](https://drive.google.com/file/d/1Wm5hFqVW6oObdQK2TSem8qhPC84IlJR7/view?usp=sharing)
+[Solving Sol](https://solvingsol.com/)
+
+
 ## Week 5 sketch
 Week | Exercise |
 --- | --- |
