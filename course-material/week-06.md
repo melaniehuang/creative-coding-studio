@@ -343,11 +343,11 @@ Some keys require key and some require keyCode checks:
 value | variable check |
 --- | --- |
 a-z, A-Z | key |
-" " (space) | key |
+" " | key |
 ENTER | keyCode |
 BACKSPACE | keyCode |
 ESC | keyCode |
-UP, DOWN, LEFT, RIGHT | keyCode |
+UP DOWN LEFT RIGHT | keyCode|
 
 So for the ‘special’ keys that need keyCode. We’d do the following:
 ```processing
@@ -438,7 +438,7 @@ This concept is inspired by a single line of code written in BASIC(a programming
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
 ```
 
-There’s a [book](http://nickm.com/trope_tank/10_PRINT_121114.pdf) on it and you can see it in action ![here](https://www.youtube.com/watch?v=m9joBLOZVEo).
+There’s a [book](http://nickm.com/trope_tank/10_PRINT_121114.pdf) on it and you can see it in action [here](https://www.youtube.com/watch?v=m9joBLOZVEo).
 
 There’s also a [coding video](https://www.youtube.com/watch?v=bEyTZ5ZZxZs) for this in Javascript - however Daniel Shiffman is a man of glorious natures and although the code is a little different, the fundamental structure is well explained.
 
