@@ -42,9 +42,9 @@ for (init; test; update) {
 
 If this looks overwhelming, don’t worry. It’s quite straight forward once we talk in human words.
 
-init =  “Computer, start the variable’s value here,...”
-test =  “...keep running the statements until this is false”
-Update =  “...and each time, update the value.”
+- init =  “Computer, start the variable’s value here,...”
+- test =  “...keep running the statements until this is false”
+- update =  “...and each time, update the value.”
 
 Therefore, let’s step through what we know:
 1. Our canvas is 900px wide 
@@ -175,9 +175,9 @@ for (int i = 0; i < width; i+=ellipseSize){
   }
 }
 ```
-**init:** - "Computer, start the variable ______ at the value ______"
-**test:** "...keep running the statements until ______"
-**update** - "...and each time, increment/decrement ______ by ______."
+- **init:** - "Computer, start the variable ______ at the value ______"
+- **test:** "...keep running the statements until ______"
+- **update** - "...and each time, increment/decrement ______ by ______."
 
 To test the sketch, change the size of the ellipse and the size of the canvas.
 Isn’t that nicer than specifying and respecifying every coordinate, every time?
