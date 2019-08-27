@@ -428,10 +428,22 @@ void keyPressed(){
 }
 ```
 
-## Type a pattern
+# Type a pattern
 Can you work out what’s going on here?
+![PRINT 10](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-06-001.png)
 
+This concept is inspired by a single line of code written in BASIC(a programming language) on the ![Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)(an early home computer) in the early 1980s:
 
+```basic
+10 PRINT CHR$(205.5+RND(1)); : GOTO 10
+```
+
+There’s a ![book](http://nickm.com/trope_tank/10_PRINT_121114.pdf) on it and you can see it in action ![here](https://www.youtube.com/watch?v=m9joBLOZVEo).
+
+There’s also a ![coding video](https://www.youtube.com/watch?v=bEyTZ5ZZxZs) for this in Javascript - however Daniel Shiffman is a man of glorious natures and although the code is a little different, the fundamental structure is well explained.
+
+## Let’s break this down into smaller bits.
+The unit of this grid is made of a single line with alternating directions. The first option from top left to bottom right and the second option from bottom left to top right. 
 
 
 
