@@ -340,6 +340,97 @@ Can you get ‘m’ OR ‘M’ to draw confetti and ‘s’ OR ‘S’ to change
 The last missing piece of the puzzle is for situations where you want to use keys that aren’t letters, numbers or punctuation. We have to be a little careful here as depending on where you run the code also depends on what else the system might execute with that “special” key.
 
 Some keys require key and some require keyCode checks:
+value | variable check |
+--- | --- |
+a-z, A-Z | key |
+" " (space) | key |
+ENTER | keyCode |
+BACKSPACE | keyCode |
+ESC | keyCode |
+UP, DOWN, LEFT, RIGHT | keyCode |
+
+So for the ‘special’ keys that need keyCode. We’d do the following:
+```processing
+void keyPressed(){
+  background(colorList[int(random(5))]);
+  if (keyCode == UP){
+    //execute these statements
+  } else {
+    //execute these statements
+  }
+}
+```
+
+## Let’s look at some practical uses.
+### Multiple keys for different uses
+```processing
+int ellipseSize = 2;
+
+void setup(){
+  size(900,900);
+  background(255);
+  noStroke();
+}
+
+void draw(){
+  fill(0);
+  ellipse(random(width),random(height), ellipseSize,ellipseSize);
+}
+
+void keyPressed(){
+  if (key == ' '){
+     for (int i = 0; i < 100; i++){
+       ellipse(random(width),random(height), ellipseSize,ellipseSize);
+     }
+   } else if (keyCode == UP){ 
+     ellipseSize++;
+   } else if (key == 'r' || key == 'R'){
+     ellipseSize = 2;
+   }
+}
+```
+
+**Exercise: Can you describe what’s happening here?**
+Add a new command: If a user presses to DOWN key, decrease the size of the ellipse.
+
+### Using arrow keys to increment and decrement color values
+```processing
+color currentColor;
+int h = 359;
+int t = 100;
+boolean countUp = false;
+
+void setup(){
+  size(900,900);
+  background(0);
+  colorMode(HSB,360,100,100,100);
+  noStroke();
+}
+
+void draw(){
+  currentColor = color(h,75,90,t);
+  fill(currentColor);
+  ellipse(random(width),random(height), 10,10); 
+}
+
+void keyPressed(){
+  if (keyCode == UP && h >= -1 && h <= 359){
+    h++;
+  } else if (keyCode == DOWN && h >= 0 && h <= 360){
+    h--;
+  }  
+  
+  if (keyCode == RIGHT && t >= -1 && t <= 99){
+    t++;
+  } else if (keyCode == LEFT && t >= 0 && t <= 100){
+    t--;
+  }  
+}
+```
+
+## Type a pattern
+Can you work out what’s going on here?
+
 
 
 
