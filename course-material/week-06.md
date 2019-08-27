@@ -339,15 +339,22 @@ Can you get ‘m’ OR ‘M’ to draw confetti and ‘s’ OR ‘S’ to change
 ### Special Keys
 The last missing piece of the puzzle is for situations where you want to use keys that aren’t letters, numbers or punctuation. We have to be a little careful here as depending on where you run the code also depends on what else the system might execute with that “special” key.
 
-Some keys require key and some require keyCode checks
-| value | variable check  |
-| --- | --- |
-| a to z and A to Z | key |
-| space | key |
-| ENTER | keyCode |
-| BACKSPACE | keyCode |
-| ESC | keyCode |
-| UP DOWN LEFT RIGHT | keyCode |
+Some keys require key and some require keyCode checks.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+value | variable check 
+--- | ---
+a to z and A to Z | key
+" " space | key
+ENTER | keyCode
+BACKSPACE | keyCode 
+ESC | keyCode 
+UP DOWN LEFT RIGHT | keyCode
 
 So for the ‘special’ keys that need keyCode. We’d do the following:
 ```processing
