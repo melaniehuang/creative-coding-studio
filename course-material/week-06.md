@@ -432,20 +432,136 @@ void keyPressed(){
 Can you work out what’s going on here?
 ![PRINT 10](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-06-001.png)
 
-This concept is inspired by a single line of code written in BASIC(a programming language) on the ![Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)(an early home computer) in the early 1980s:
+This concept is inspired by a single line of code written in BASIC(a programming language) on the [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)(an early home computer) in the early 1980s:
 
 ```basic
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
 ```
 
-There’s a ![book](http://nickm.com/trope_tank/10_PRINT_121114.pdf) on it and you can see it in action ![here](https://www.youtube.com/watch?v=m9joBLOZVEo).
+There’s a [book](http://nickm.com/trope_tank/10_PRINT_121114.pdf) on it and you can see it in action ![here](https://www.youtube.com/watch?v=m9joBLOZVEo).
 
-There’s also a ![coding video](https://www.youtube.com/watch?v=bEyTZ5ZZxZs) for this in Javascript - however Daniel Shiffman is a man of glorious natures and although the code is a little different, the fundamental structure is well explained.
+There’s also a [coding video](https://www.youtube.com/watch?v=bEyTZ5ZZxZs) for this in Javascript - however Daniel Shiffman is a man of glorious natures and although the code is a little different, the fundamental structure is well explained.
 
 ## Let’s break this down into smaller bits.
 The unit of this grid is made of a single line with alternating directions. The first option from top left to bottom right and the second option from bottom left to top right. 
+![PRINT 10 parts](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-06-003.png)
 
+Let’s first draw these two lines onto the canvas.
+```processing
+void setup(){
+  size(1200,880);
+  strokeWeight(2);
+  background(0,0,255);
+}
 
+void draw(){
+}
 
+void keyPressed(){
+  background(0,0,255);
+  stroke(255);
+  line(0,0,40,40);
+  line(40,0,0,40);
+}
+```
 
+Now rather than drawing them on top of one another, I want to draw one OR the other. So we need an if statement with a bit of probability. 
 
+```processing
+void setup(){
+  size(1200,880);
+  strokeWeight(2);
+  background(0,0,255);
+}
+
+void draw(){
+}
+
+void keyPressed(){
+  background(0,0,255);
+  stroke(255);
+  if (random(1) < 0.5){
+    line(0,0,40,40);
+  } else {
+    line(40,0,0,40);
+  }
+}
+```
+
+Now, what’s neat about this is that if we change the probability and skew it in the one direction, we can make all kinds of other neat patterns. **Change one line’s probability to 0.3.**
+
+## Time to repeat! Repeat!
+
+```processing
+int rowPos = 0;
+
+void setup(){
+  size(1200,900);
+  background(0,0,255);
+  stroke(255);
+  strokeWeight(2);
+}
+
+void draw(){
+}
+
+void keyPressed(){  
+  if (random(1)<0.5){
+    line(rowPos,0,rowPos+40,40);
+  } else {
+    line(rowPos+40,0,rowPos,40);
+  }
+  rowPos += 40;
+}
+```
+
+Now we need a check at the end of the line, and create a new line.
+```processing
+
+int rowPos = 0;
+int colPos = 0;
+
+void setup(){
+  size(1200,900);
+  background(0,0,255);
+  stroke(255);
+  strokeWeight(2);
+}
+
+void draw(){
+}
+
+void keyPressed(){  
+  if (random(1)<0.5){
+    line(rowPos,colPos,rowPos+40,colPos+40);
+  } else {
+    line(rowPos+40,colPos,rowPos,colPos+40);
+  }
+  rowPos += 40;
+  
+  if (rowPos > width){
+    rowPos = 0;
+    colPos += 40;
+  }
+}
+```
+
+**Exercise: What if we just wanted to have the pattern type out on it’s own?**
+See if you can get this to work.
+
+## Mouse and key functions
+Here are some more functions that might come in handy.
+
+function | description |
+--- | --- |
+keyPressed(); | Called once every time a key is pressed. |
+keyReleased(); | Called once every time a key is released. |
+mousePressed(); | Called once after every time a mouse button is pressed. |
+mouseMoved(); | Called once every time the mouse moves while a mouse button is not pressed. |
+mouseDragged(); | Called once every time the mouse moves while a mouse button is pressed. |
+mouseClicked(); | Called after a mouse button has been pressed and then released. |
+
+## Week 6 sketch
+Week | Exercise |
+--- | --- |
+6 | Make your own PRINT10 pattern using different line directions or shapes. See what surprising patterns you can create using different probabilities. Utilise at least two of the above functions to control how your pattern is created. |
