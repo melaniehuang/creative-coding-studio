@@ -1,4 +1,4 @@
-# Week 6: Loops and repetition
+# Week 6: Loops, repetition and inputs
 
 So we’ve been drawing shapes, changing colours and composing our designs. It’s time to look at how the computer can help us with the things that the computer is great at and our human math-ing is not so great at. Let’s start by simply drawing a circle:
 
@@ -342,12 +342,12 @@ The last missing piece of the puzzle is for situations where you want to use key
 Some keys require key and some require keyCode checks:
 value | variable check |
 --- | --- |
-a-z, A-Z | key |
+a to z and A to Z | key |
 " " | key |
 ENTER | keyCode |
 BACKSPACE | keyCode |
 ESC | keyCode |
-UP DOWN LEFT RIGHT | keyCode|
+UP DOWN LEFT RIGHT | keyCode |
 
 So for the ‘special’ keys that need keyCode. We’d do the following:
 ```processing
