@@ -183,7 +183,7 @@ To test the sketch, change the size of the ellipse and the size of the canvas.
 Isn’t that nicer than specifying and respecifying every coordinate, every time?
 
 ## Keyboard and Mouse Inputs
-So let’s talk this week about conditional statements that will help give more structure to our sketches. Let’s say on keyPressed() we want to draw 20 ellipses to the screen.
+So let’s talk this week about conditional statements that will help give more structure to our sketches. Let’s say on `keyPressed()` we want to draw 20 ellipses to the screen.
 
 ```processing
 color[] colorList = new color[5]; 
@@ -216,7 +216,7 @@ This should be fairly familiar to you. Now let’s say we want to define what ha
 ## If/Else statement
 So some of you may have already ventured into the land of if statements but if you haven’t don’t worry - it’s fairly straight forward. We want the computer to do the following:
 
-On key press, run the function keyPressed() and…
+On key press, run the function `keyPressed()` and…
 ...if the key is ‘m’(for magic), execute the following statements
 ...else, execute the following statements instead.
 
@@ -281,17 +281,17 @@ if (key == 'm')
 ```
 
 This is what’s known as a Relational Operator; an operator that checks if items are related to one another. In this case, we’re asking the computer to check the “equality” of key and the letter ‘m’ . Some other Relational Operators you might recognise are:
-**!=** inequality
-**<** less than
-**<=** less than or equal to
-**>** greater than
-**>=** greater than or equal to
+`!` inequality
+`<`less than
+`<=`less than or equal to
+`>`greater than
+`>=`greater than or equal to
 
 **Exercise: Change the equality operator to the inequality operator in your sketch.**
 Now change it back to equality.
 
 ## Logical Operators
-So given we’re checking for == (equality), the key m is not the same as the key M to the computer. Let’s first see what it’s doing. Run your sketch again and type ‘m’ and then ‘M’.  
+So given we’re checking for `==` (equality), the key m is not the same as the key M to the computer. Let’s first see what it’s doing. Run your sketch again and type ‘m’ and then ‘M’.  
 
 If we want to trigger our colours on m or M, or any other key in fact, then we will need a logical operator. Instead of just checking for m, we want to check for m OR M.
 
@@ -309,7 +309,7 @@ void keyPressed(){
 ```
 However, if we want ‘m’ and ‘M’ to execute the same statements, it’s a waste of breath for the computer. So, we bring in a logical operator...
 
-**||** or
+`||` or
 ```processing
 //if the key is m OR M:
 if (key == 'm' || key == 'M'){
@@ -317,7 +317,7 @@ if (key == 'm' || key == 'M'){
 } 
 ```
 
-**!** not
+`!` not
 ```processing
 //if the key is NOT m or NOT M:
 if (!(key == 'm') || !(key == 'M')){
@@ -325,7 +325,7 @@ if (!(key == 'm') || !(key == 'M')){
 } 
 ```
 
-**&&** and
+`&&` and
 ```processing
 //If the key is m AND the canvas width is 900px
 if (key == 'm' && width == 900){
@@ -343,14 +343,14 @@ Some keys require key and some require keyCode checks.
 
 value | variable check 
 --- | ---
-a to z and A to Z | key
-" " space | key
-ENTER | keyCode
-BACKSPACE | keyCode 
-ESC | keyCode 
-UP DOWN LEFT RIGHT | keyCode
+a to z and A to Z | `key`
+" " space | `key`
+ENTER | `keyCode`
+BACKSPACE | `keyCode`
+ESC | `keyCode`
+UP DOWN LEFT RIGHT | `keyCode`
 
-So for the ‘special’ keys that need keyCode. We’d do the following:
+So for the ‘special’ keys that need `keyCode`. We’d do the following:
 ```processing
 void keyPressed(){
   background(colorList[int(random(5))]);
@@ -555,12 +555,12 @@ Here are some more functions that might come in handy.
 
 function | description |
 --- | --- |
-keyPressed(); | Called once every time a key is pressed. |
-keyReleased(); | Called once every time a key is released. |
-mousePressed(); | Called once after every time a mouse button is pressed. |
-mouseMoved(); | Called once every time the mouse moves while a mouse button is not pressed. |
-mouseDragged(); | Called once every time the mouse moves while a mouse button is pressed. |
-mouseClicked(); | Called after a mouse button has been pressed and then released. |
+`keyPressed()` | Called once every time a key is pressed. |
+`keyReleased()` | Called once every time a key is released. |
+`mousePressed()` | Called once after every time a mouse button is pressed. |
+`mouseMoved()` | Called once every time the mouse moves while a mouse button is not pressed. |
+`mouseDragged()` | Called once every time the mouse moves while a mouse button is pressed. |
+`mouseClicked()` | Called after a mouse button has been pressed and then released. |
 
 ## Week 6 sketch
 Week | Exercise |
