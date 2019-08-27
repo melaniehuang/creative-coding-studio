@@ -10,7 +10,7 @@ Welcome to the Creative Coding studio.
   - [Week 3: Shapes and movement](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-03.md)
   - [Week 4: Images and Text](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-04.md)
   - [Week 5: Colours and Palettes](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-05.md)
-  - [Week 6](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-06.md)
+  - [Week 6: Loops, Repetition and Input](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-06.md)
   - [Week 7](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-07.md)
   - [Week 8](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-08.md)
   - [Week 9](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-09.md)
