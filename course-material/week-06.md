@@ -341,12 +341,6 @@ The last missing piece of the puzzle is for situations where you want to use key
 
 Some keys require key and some require keyCode checks.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-
 value | variable check 
 --- | ---
 a to z and A to Z | key
