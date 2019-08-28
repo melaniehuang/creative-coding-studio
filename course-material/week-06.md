@@ -536,7 +536,7 @@ void keyPressed(){
   if (random(1)<0.5){
     line(rowPos,colPos,rowPos+40,colPos+40);
   } else {
-    line(colPos,rowPos+40,colPos+40,rowPos);
+    line(rowPos,40+colPos,rowPos+40,colPos);
   }
   rowPos += 40;
   
