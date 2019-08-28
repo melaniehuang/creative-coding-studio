@@ -549,32 +549,32 @@ void keyPressed(){
 
 Now we repeat it in the y direction.
 ```processing
-
 int rowPos = 0;
 int colPos = 0;
 
 void setup(){
-  size(1200,900);
-  background(0,0,255);
-  stroke(255);
+  size(1200,880);
   strokeWeight(2);
+  background(0,0,255);
 }
 
 void draw(){
 }
 
-void keyPressed(){  
-  if (random(1)<0.5){
-    line(rowPos,colPos,rowPos+40,colPos+40);
+void keyPressed(){
+  stroke(255);
+  if (random(1) < 0.5){
+    line(rowPos,colPos,40+rowPos,40+colPos);
   } else {
-    line(rowPos,40+colPos,rowPos+40,colPos);
+    line(rowPos,40+colPos,40+rowPos,colPos);
   }
+  
   rowPos += 40;
   
   if (rowPos > width){
     rowPos = 0;
     colPos += 40;
-  }
+  } 
 }
 ```
 
