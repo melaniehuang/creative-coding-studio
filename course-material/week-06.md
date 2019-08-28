@@ -497,21 +497,22 @@ Now, what’s neat about this is that if we change the probability and skew it i
 int rowPos = 0;
 
 void setup(){
-  size(1200,900);
-  background(0,0,255);
-  stroke(255);
+  size(1200,880);
   strokeWeight(2);
+  background(0,0,255);
 }
 
 void draw(){
 }
 
-void keyPressed(){  
-  if (random(1)<0.5){
-    line(rowPos,0,rowPos+40,40);
+void keyPressed(){
+  stroke(255);
+  if (random(1) < 0.5){
+    line(rowPos,0,40+rowPos,40);
   } else {
-    line(0,rowPos+40,40,rowPos);
+    line(rowPos,40,40+rowPos,0);
   }
+  
   rowPos += 40;
 }
 ```
