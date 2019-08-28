@@ -462,7 +462,7 @@ void keyPressed(){
   background(0,0,255);
   stroke(255);
   line(0,0,40,40);
-  line(40,0,0,40);
+  line(0,40,40,0);
 }
 ```
 
@@ -484,7 +484,7 @@ void keyPressed(){
   if (random(1) < 0.5){
     line(0,0,40,40);
   } else {
-    line(40,0,0,40);
+    line(0,40,40,0);
   }
 }
 ```
@@ -510,7 +510,7 @@ void keyPressed(){
   if (random(1)<0.5){
     line(rowPos,0,rowPos+40,40);
   } else {
-    line(rowPos+40,0,rowPos,40);
+    line(0,rowPos+40,40,rowPos);
   }
   rowPos += 40;
 }
@@ -536,7 +536,7 @@ void keyPressed(){
   if (random(1)<0.5){
     line(rowPos,colPos,rowPos+40,colPos+40);
   } else {
-    line(rowPos+40,colPos,rowPos,colPos+40);
+    line(colPos,rowPos+40,colPos+40,rowPos);
   }
   rowPos += 40;
   
