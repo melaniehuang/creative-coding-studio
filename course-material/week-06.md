@@ -518,6 +518,36 @@ void keyPressed(){
 ```
 
 Now we need a check at the end of the line, and create a new line.
+
+```processing
+int rowPos = 0;
+
+void setup(){
+  size(1200,880);
+  strokeWeight(2);
+  background(0,0,255);
+}
+
+void draw(){
+}
+
+void keyPressed(){
+  stroke(255);
+  if (random(1) < 0.5){
+    line(rowPos,0,40+rowPos,40);
+  } else {
+    line(rowPos,40,40+rowPos,0);
+  }
+  
+  rowPos += 40;
+  
+  if (rowPos > width){
+    rowPos = 0;
+  } 
+}
+```
+
+Now we repeat it in the y direction.
 ```processing
 
 int rowPos = 0;
