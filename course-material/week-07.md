@@ -36,7 +36,7 @@ Start to get a feel of this collaboration with your computer. If you find a mome
 As I try to always reiterate in class, creative coding is **NOT** trying to simply draw a static image with code. You can already do this in Photoshop or Paint. The magic comes within the collaboration between you and the computer.
 
 Let's try to create this together.
-![Alexander Calder inspired sketch](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-07-002.gif)
+![Alexander Calder inspired sketch](https://media.giphy.com/media/SqwuZVZ9U31VlkCsYn/giphy.gif)
 
 ## Extension Two: Sol LeWitt
 Now to really get our brain working.
