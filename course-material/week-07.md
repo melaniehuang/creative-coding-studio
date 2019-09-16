@@ -36,47 +36,54 @@ Start to get a feel of this collaboration with your computer. If you find a mome
 As I try to always reiterate in class, creative coding is **NOT** trying to simply draw a static image with code. You can already do this in Photoshop or Paint. The magic comes within the collaboration between you and the computer.
 
 Let's try to create this together.
+
 ![Alexander Calder inspired sketch](https://media.giphy.com/media/SqwuZVZ9U31VlkCsYn/giphy.gif)
 
 ## Extension Two: Sol LeWitt
-Now to really get our brain working.
-
-In the work of Sol LeWitt's wall drawings, he provides instructions for a team to execute directly onto a wall surface. This means, depending where this is installed, the visual outcome of his instructions will be different.
+Now to really get our brain working. In the work of Sol LeWitt's *wall drawings*, he provides instructions for a team to execute directly onto a wall's surface. This means, depending on where this is installed and the team that installs it, the visual outcome of his instructions could be different.
 
 Can you try to "Look! Really look" at this instruction? What do you see and interpret?
 
-"One one wall, intersecting non-symmetrical bands of parallel lines 36"(90 cm) wide, in four directions and colours."
+> One one wall, intersecting non-symmetrical bands of parallel lines 36"(90 cm) wide, in four directions and colours.
 
 Sketch out some ideas and try to use the process we've been using in class to create your own interpretation with code.
 
 ## Extension Three: M.C Escher
-This one I'm going to give you a little head start because there's a little upfront research into Escher's tessellations that may not be obvious at first glance.
+For this one I'm going to give you a little head start because there's a little upfront research into Escher's tessellations that may not be obvious at first glance.
 
-"Regular" tessellation describes a tessellation where all the shapes are the same and tileable.
-There are six different "regular" tessellations that have been discovered:
-Square, Rectangle, Parrallogram, Diamond, Triangle, Hexagon
+"A regular tessellation is a pattern made by repeating a regular polygon. A regular polygon is one having all its sides equal and all it's interior angles equal. So there are only 3 kinds of regular tessellations - ones made from squares, equilateral triangles and hexagons." 
+*http://www.funmaths.com/fun_math_projects/what_is_a_tessellation.htm*
+
+We also see parrallograms, rectangles and diamonds in Escher's works.
 
 Using these base grids, we can create our own creatures and geometries that will also be repeatable.
 
-Let's get out our grid paper.
-Starting with a simple square tile, grab your grid worksheets and let’s start drawing! Let’s stick to straight lines for now.
+### Let's get out our grid paper.
+
+Starting with a simple square pattern, let’s start drawing our custom tile! Also, for ease, let’s stick to simple, straight lines for now.
 
 1. Draw a line on one side
 2. Slide it to the opposite side and repeat exactly
 3. Now repeat step 1 & 2 for the remaining side
 4. Now look for recognisable figures
 
-Now comes the tedious-ish part.
+### Coding time
 
-Using beginShape() and endShape(), start to draw in your vertex(x,y) coordinates. I promise it will be worth it! I know I always mix my x and y coordinates, so sometimes I find it easier to write them down on paper first and then copy them in.
+Using beginShape() and endShape(), start to draw in your vertex(x,y) coordinates. I promise it will be worth it! I know I always mix up my x and y coordinates, so sometimes I find it easier to write them down on paper first and then copy them in.
 
 Once we've got a shape, how would we repeat this tile on screen?
-<exercise>
+```processing
+tbc
+```
 
 Let's alternate colours with modulo.
-<exercise>
+```processing
+tbc
+```
 
-Extensions - there's a bunch more extensions where I go into different shapes, reflection tessellation and tile division if you're liking this train of thought.
+Extensions - there's a bunch more extensions where I go into different shapes, reflection tessellation and tile division if you're liking this train of thought. [See extensions here](https://drive.google.com/file/d/1hO4atW1oKEEEEzgbT9eQzt-mWIyeflJo/view?usp=sharing)
 
-## Weekly task
-Pick one of the above exercises and see how you could extend it further? Maybe you want to add some interactivity? Maybe you want to customise colours? Maybe you want to do something completely different?
+## Week 7 sketch
+Week | Exercise |
+--- | --- |
+7 | Pick one of the above exercises and see how you could extend it further? Maybe you want to add some interactivity? Maybe you want to customise colours? Maybe you want to do something completely different? |
