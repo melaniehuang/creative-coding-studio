@@ -71,15 +71,132 @@ Starting with a simple square pattern, let’s start drawing our custom tile! Al
 
 Using beginShape() and endShape(), start to draw in your vertex(x,y) coordinates. I promise it will be worth it! I know I always mix up my x and y coordinates, so sometimes I find it easier to write them down on paper first and then copy them in.
 
-Once we've got a shape, how would we repeat this tile on screen?
 ```processing
-tbc
+void setup() {
+  size(595, 860);
+  colorMode(HSB, 360, 100, 100);
+}
+
+void draw() {
+  background(0,0,100);
+  stroke(0,0,0);
+  fill(0,0,100);
+  beginShape();
+    vertex(20,20);
+    vertex(40,20);
+    vertex(40,10);
+    vertex(50,10);
+    vertex(60,30);
+    vertex(80,30);
+    vertex(80,20);
+    vertex(100,20);
+    vertex(100,40);
+    vertex(110,50);
+    vertex(110,70);
+    vertex(100,70);
+    vertex(100,100);
+    vertex(80,100);
+    vertex(80,110);
+    vertex(60,110);
+    vertex(50,90);
+    vertex(40,90);
+    vertex(40,100);
+    vertex(20,100);
+    vertex(20,70);
+    vertex(30,70);
+    vertex(30,50);
+    vertex(20,40);
+    vertex(20,20);
+  endShape(CLOSE);
+}
+```
+
+Move your tile drawing to it's own function so we can easily do it again and again.
+```processing
+void setup() {
+  size(595, 860);
+  colorMode(HSB, 360, 100, 100);
+}
+
+void draw() {
+  background(0,0,100);
+  tile(color(0,0,100));
+}
+
+void tile(color f){
+  stroke(0,0,0);
+  fill(f);
+  beginShape();
+    vertex(20,20);
+    ...
+  endShape(CLOSE);
+}
+```
+Once we've got a shape, how would we repeat this tile to the surface of the screen?
+
+```processing
+void setup() {
+  size(595, 860);
+  colorMode(HSB, 360, 100, 100);
+}
+
+void draw() {
+  background(0,0,100);
+  for(int y = 0; y < 10; y++){
+    for(int x = 0; x < 7; x++){
+      pushMatrix();
+      translate(80*x,0);
+      tile(color(0,0,100));
+      popMatrix();
+    }
+    translate(0,80);
+  }
+}
+
+void tile(color f){
+  stroke(0,0,0);
+  fill(f);
+  beginShape();
+    vertex(20,20);
+    ...
+  endShape(CLOSE);
+}
 ```
 
 Let's alternate colours with modulo.
 ```processing
-tbc
-```
+int counter = 0;
+
+void setup() {
+  size(595, 860);
+  colorMode(HSB, 360, 100, 100);
+}
+
+void draw() {
+  background(0,0,100);
+  for(int y = 0; y < 10; y++){
+    for(int x = 0; x < 7; x++){
+      pushMatrix();
+      translate(80*x,0);
+      if (counter % 2 == 0){
+        tile(color(0,0,100));
+      } else {
+        tile(color(0,0,0));
+      }
+      popMatrix();
+      counter++;
+    }
+    translate(0,80);
+  }
+}
+
+void tile(color f){
+  stroke(0,0,0);
+  fill(f);
+  beginShape();
+    v...
+  endShape(CLOSE);
+}```
 
 Extensions - there's a bunch more extensions where I go into different shapes, reflection tessellation and tile division if you're liking this train of thought. [See extensions here](https://drive.google.com/file/d/1hO4atW1oKEEEEzgbT9eQzt-mWIyeflJo/view?usp=sharing)
 
