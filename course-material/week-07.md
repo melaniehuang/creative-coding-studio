@@ -194,7 +194,8 @@ void tile(color f){
   stroke(0,0,0);
   fill(f);
   beginShape();
-    v...
+    vertex(20,20);
+    ...
   endShape(CLOSE);
 }```
 
