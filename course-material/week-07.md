@@ -39,6 +39,55 @@ Let's try to create this together.
 
 ![Alexander Calder inspired sketch](https://media.giphy.com/media/SqwuZVZ9U31VlkCsYn/giphy.gif)
 
+```processing
+void setup(){
+  size(900,900);
+  colorMode(HSB,360,100,100);
+  background(10,8,90);
+  noFill();
+  frameRate(10);
+}
+
+void draw(){
+  background(10,8,90); 
+  float vertexY = 150;
+  beginShape();
+    for(int v = 0; v < 9; v++){
+      //random(400,500) value for x 
+      //y to increase by 50
+      float vertexX = random(400,500);
+      float ellipseX = random(70,200);
+      float ellipseY = random(50);
+      vertex(vertexX,vertexY);
+      
+      if (random(1) < 0.3){
+        //line 1
+        line(vertexX,vertexY,vertexX+ellipseX/2,vertexY);
+        fill(20,100,80);
+        ellipse(vertexX+ellipseX/2,vertexY,random(20,50),random(20,50));
+        noFill();
+        line(vertexX,vertexY,vertexX-ellipseX/2,vertexY);
+        fill(20,100,80);
+        ellipse(vertexX-ellipseX/2,vertexY,random(20,50),random(20,50));
+        noFill();
+      } else if (random(1) > 0.7){
+        //line type 2
+        line(vertexX, vertexY,vertexX+ellipseX,vertexY-ellipseY);
+        fill(20,100,80);
+        ellipse(vertexX+ellipseX,vertexY-ellipseY,random(20,50),random(20,50));
+        noFill();
+      } else {
+        line(vertexX, vertexY,vertexX-ellipseX,vertexY-ellipseY);
+        fill(20,100,80);
+        ellipse(vertexX-ellipseX,vertexY-ellipseY,random(20,50),random(20,50));
+        noFill();
+      }
+      vertexY += random(50,100);
+    }
+  endShape();
+}
+```
+
 ## Extension Two: Sol LeWitt
 Now to really get our brain working. In the work of Sol LeWitt's *wall drawings*, he provides instructions for a team to execute directly onto a wall's surface. This means, depending on where this is installed and the team that installs it, the visual outcome of his instructions could be different.
 
