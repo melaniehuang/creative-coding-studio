@@ -1,4 +1,4 @@
-Week 08: Extensions
+# Week 08: Extensions
 
 It’s time for a sketch UPGRADE! We are ready to start adding libraries - which means lots
 more cool things! Libraries are a collection of additional functions that we can join onto our
@@ -11,30 +11,30 @@ Importing a library into Processing is easy peasy: Sketch > Import Library > Add
 Once you become a bit more comfortable with libraries, you can also branch out to
 Contributed Libraries that other people have made.
 
-# Processing types
+## Processing types
 
 Although the libraries in Processing work, it’s a lot easier to handle sound and video if we
 switch over to p5.js for this instance. This is because p5.js already comes with built in
 functions and libraries for this. This class has introduced you to a myriad of
 Processing-related bits and pieces so here is a summary(in timeline order):
 
-## Processing
+**Processing**
 Created in 2001, as a language for learning how to code within the context of the visual arts.
 It runs on your Desktop. It is a programming language based on Java. This is the OG we know and love.
 
-## Processing.js
+**Processing.js**
 Created in 2008 and has since been sidelined(works but has noone to maintain or improve it). Can run on the web. It was made to run Processing sketches in the browser. It's also used as a base to run Processing code inside of openProcessing which highlights some incompatabilities.
 
-## openProcessing
+**openProcessing**
 Created in 2009 as a method of sharing your sketches and creating an online Processing community with visuals! Runs online. Online community where you submit your sketches to a class and can upload and share your sketches.
 
-## p5.js
+**p5.js**
 The newest of the bunch, released in 2014 and has the most work and effort going into it currently. It runs in the browser and there is an online editor(that we've been using). p5.js is a Javascript library based on Processing.
 
 There is a time and place for all these things and as you start to build out your sketch, you
 can investigate what is appropriate especially in regards to Processing vs. p5.js.
 
-# Introducing p5.js
+## Introducing p5.js
 p5.js is a Javascript library based on Processing which means, it’s way more friendly when
 you’re trying to do things in the browser because Javascript is one of the core technologies
 of the big, bad, world wide web.
@@ -198,7 +198,14 @@ void mousePressed() {
   }
 }
 ```
-## Exercise
+**Exercise**
 Convert this Processing sketch into Javascript with p5.js. Get this sketch working both in
 the p5.js editor on your Mobile and Desktop.
 
+# Studio
+Okay, that's enough from me - go forth and try some tutorials that interest you. I've added some example tutorials in Week 9's notes. Let's do some coding!
+
+## Week 8 sketch
+Week | Exercise |
+--- | --- |
+8 | Pick a tutorial you like and see how you can extend it further. Simple :) If you're finding the coding easy, focus on trying to extend it more. If you're finding the creativity easy, focus on a harder coding challenge. All I ask is that you try something you haven't done before. |
