@@ -25,12 +25,14 @@ You will need a camera for this example but its a fun one.
 - [p5.js Slit Scan Video](https://www.youtube.com/watch?v=YqVbuMPIRwY&feature=youtu.be)
 
 ## Add data
+### Count your lyrics
+### Data bubbles
+### Visualising the weather
 
 ## Add a third dimension
 ### Explore 3D geometries
 ### Adding lights and material
 ### Surface textures
-
 
 ## Level up random
 ### noise() > random()
