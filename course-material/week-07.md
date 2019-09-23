@@ -4,7 +4,7 @@ The good news is that you pretty much have all the coding fundamentals you need 
 
 It's totally okay if you're not 100% on all the things we went through. Coding is like any other skill, it takes practice and exercise but if at any point you get stuck, please reach out because we can solve it together :)
 
-## Extension exercices
+## Extension exercises
 So this week and the next couple of weeks we're going to jump around into a whole bunch of different exercises that will hopefully inspire you to extend your assignments somehow.
 
 This week we will focus on specific exercises inspired by the three artists: Calder, Escher & LeWitt. The following weeks will be more freeform, asking you to explore topics and subjects you're interested in extending into.
