@@ -23,6 +23,8 @@ We can make sound by coding and sequencing frequencies
 You will need a camera for this example but its a fun one.
 - [Processing Slit Scan Video](https://www.youtube.com/watch?v=WCJM9WIoudI&list=PLRqwX-V7Uu6bw0bVn4M63p8TMJf3OhGy8&index=3)
 - [p5.js Slit Scan Video](https://www.youtube.com/watch?v=YqVbuMPIRwY&feature=youtu.be)
+Example code:
+- [openProcessing](https://www.openprocessing.org/sketch/594588)
 
 ## Add data
 ### Count your lyrics
