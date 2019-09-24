@@ -3,8 +3,7 @@
 ## Add sound
 
 ### Mic and/or Sound File as Input
-
-Image | Description |
+♥ | Details |
 --- | --- |
 ![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-001.png) | I've previously created a workshop to read the volume of your mic or a song to affect visuals. [Generative Sounds booklet](https://drive.google.com/file/d/12sAIQpIfR_o0tudW0heF3GV6y4iT_Gcn/view?usp=sharing)|
 
