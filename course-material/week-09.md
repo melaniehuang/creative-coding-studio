@@ -1,6 +1,7 @@
 # Week 9: Extensions
 
-There's so much inspiration you can draw on -
+There's so much inspiration you can draw on:
+
 **Books**
 - [Generative Design - comes in Processing and p5.js](https://www.amazon.com.au/Generative-Design-Benedikt-Gross/dp/1616897589/ref=asc_df_1616897589/?tag=googleshopdsk-22&linkCode=df0&hvadid=341791741598&hvpos=1o1&hvnetw=g&hvrand=7110800301134216777&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071333&hvtargid=pla-525970913024&psc=1)
 - [Nature of Code](https://www.amazon.com.au/Nature-Code-Daniel-Shiffman/dp/0985930802/ref=pd_sim_14_3/356-3477534-9005948?_encoding=UTF8&pd_rd_i=0985930802&pd_rd_r=badb3546-6dbf-4890-af34-5d598c83953f&pd_rd_w=KXZjU&pd_rd_wg=hzz7n&pf_rd_p=f09e5598-fbdb-4712-af44-62e0022496fc&pf_rd_r=X0WCQWZEWJ9ASP89PSGN&psc=1&refRID=X0WCQWZEWJ9ASP89PSGN)
