@@ -3,19 +3,19 @@
 ## Add sound
 
 ### 
-♥ | Mic and/or Sound File as Input |
+Mic and/or Sound File as Input | ♥ |
 --- | --- |
-![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-001.png) | I've previously created a workshop to read the volume of your mic or a song to affect visuals. [Generative Sounds booklet](https://drive.google.com/file/d/12sAIQpIfR_o0tudW0heF3GV6y4iT_Gcn/view?usp=sharing)|
+I've previously created a workshop to read the volume of your mic or a song to affect visuals. [Generative Sounds booklet](https://drive.google.com/file/d/12sAIQpIfR_o0tudW0heF3GV6y4iT_Gcn/view?usp=sharing)| ![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-001.png) |
 
 ### 
-♥ | Analyse volume |
+Analyse volume | ♥ |
 --- | --- |
-![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-002.png) | Are you more engaged with a video tutorial? We can learn more about analysing amplitude with Daniel Shiffman. [p5.js Volume Analysis](https://www.youtube.com/watch?v=NCCHQwNAN6Y&list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW&index=4)|
+Are you more engaged with a video tutorial? We can learn more about analysing amplitude with Daniel Shiffman. [p5.js Volume Analysis](https://www.youtube.com/watch?v=NCCHQwNAN6Y&list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW&index=4)| ![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-002.png) |
 
 ### 
-♥ | Analyse your sound more closely |
+Analyse your sound more closely | ♥ |
 --- | --- |
-![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-003.png) | We can divide what the computer is hearing via an algorithm called FFT((Fast Fourier Transform). [p5.js FFT Analysis](https://www.youtube.com/watch?v=2O3nm0Nvbi4&list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW&index=11)|
+We can divide what the computer is hearing via an algorithm called FFT((Fast Fourier Transform). [p5.js FFT Analysis](https://www.youtube.com/watch?v=2O3nm0Nvbi4&list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW&index=11)| ![](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/images/week-09-003.png) | 
 
 
 
