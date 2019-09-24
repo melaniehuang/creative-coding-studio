@@ -208,4 +208,4 @@ Okay, that's enough from me - go forth and try some tutorials that interest you.
 ## Week 8 sketch
 Week | Exercise |
 --- | --- |
-8 | Pick a tutorial you like and see how you can extend it further. Simple :) If you're finding the coding easy, focus on trying to extend it more. If you're finding the creativity easy, focus on a harder coding challenge. All I ask is that you try something you haven't done before. |
+8 | Pick a tutorial you like and see how you can extend it further. Simple :) If you're finding the coding easy, focus on trying to extend it more. If you're finding the creativity easy, focus on a harder coding challenge. All I ask is that you try something you haven't done before. Also please remember to include your inspiration tutorial links as a comment.|
