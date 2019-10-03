@@ -9,8 +9,24 @@
 
 ## Running order:
 ### 16th October 2019
+1. Nguyen Ngoc Anh
+2. Qian Yi Emilee Leong
+3. Wei Tang
+4. Shenyuan Wang
+5. Yee Jing Kan
+6. Runxin Ye
+7. Christian Bagaskara
+8. Maxwell Lyons
 
 ### 23rd October 2019
+9. Jiaotong Tan
+10. Jason Le
+11. Maria Redwin San Diego Perez
+12. Zelun Xu
+13. Flora Ngo
+14. Sophie Lin
+15. Nicole Wise Erwan Ong
+16. Zhonghao Liang
 
 ## Example questions:
 Make your questions specific to the presentation. Don't ask generic questions that you could ask about any student's project.
@@ -22,7 +38,6 @@ Make your questions specific to the presentation. Don't ask generic questions th
 - You seem to have a lot of different inspirations, what is the best example of something you tried but then decided against?
 - How long did it take you to create this demo?! Have you coded before?
 
-
 ## Your presentation checklist:
 - Run time of 8 minutes, I will put my hand up at 6 minutes and both hands up at 8 minutes.
 - Tell your story from the start of the semester to now
@@ -31,11 +46,8 @@ Make your questions specific to the presentation. Don't ask generic questions th
 - Prepare a bunch of slides to keep us engaged
 - Answer a question from one of your peers
 
-
-Your presentation will be marked on:
-
-Final outputs/Demo (10pts)
-Final Presentation (8pts)
-Peer Question Answered (1pt)
-Peer Question Asked (1pt)
-Process Journal Final Hand-in (10pts)
+## Your presentation will be marked on:
+- Presentation (60pts)
+- Answer to question(5pt)
+- Final process journal and visuals (30pts)
+- Question to peer(5pt)
