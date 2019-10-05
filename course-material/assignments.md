@@ -52,21 +52,23 @@ _Reminder: No assessments will be accepted without a cover sheet_
 
 ## Task 3 (30%)
 Present and mock your ideas for the final visuals and how they could be used at the museum for the exhibition
-- and -
+
+and
+
 Prepare a 10-minute presentation on your inspiration, process and final outputs. Use plenty of large images and tell your story. This is not meant to be a stiff or professional presentation, just a chance to share your work amongst peers. Have fun with it!
 
 As an additional part of this assessment, each student will also be required to ask and be asked a question at the end of each presentation. This is an opportunity for the class to discover more about your inspiration and process.
 
 **Mandatory items**
 - Accompanying slides and live demo
-- 10 minute presentation in front of class
+- 8 minute presentation in front of class
 - 1 answer to a question asked by a peer + 1 question for a peer’s presentation
 - Final process journal and visuals
 
 **Assessment criteria**
-- Presentation (60pts)
+- Overall project via process journal and visuals (60pts)
+- Presentation (30pts)
 - Answer(5pt) and question(5pt)
-- Final process journal and visuals (30pts)
 
 **Presentation:** Wed 16 + 23 Oct, 9:30am-12:30pm (In class)
 
