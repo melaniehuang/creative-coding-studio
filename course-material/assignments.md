@@ -39,9 +39,9 @@ After a collaborative consultation with your client(slash lecturer), you will be
 - Interactive sketch demonstrating proposed final visuals
 
 **Assessment criteria**
-6 x weekly code sketches with references in comments(12pts)
-Interactive sketch demo(12pts)
-Process journal documenting any development or research leading to final sketch(16pts)
+- 6 x weekly code sketches with references in comments(30pts)
+- Interactive sketch demo(30pts)
+- Process journal documenting any development or research leading to final sketch(40pts)
 Please be sure to include all developments of your interactive sketch as part of this documentation
 Check-in: 18 September 2019 (In class)
 
