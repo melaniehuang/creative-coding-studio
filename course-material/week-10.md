@@ -9,24 +9,24 @@
 
 ## Running order:
 ### 16th October 2019
-1. Nguyen Ngoc Anh
-2. Qian Yi Emilee Leong
-3. Wei Tang
-4. Shenyuan Wang
-5. Yee Jing Kan
-6. Runxin Ye
-7. Christian Bagaskara
-8. Maxwell Lyons
+1. Qian Yi Emilee Leong
+2. Wei Tang
+3. Shenyuan Wang
+4. Yee Jing Kan
+5. Runxin Ye
+6. Jiaotong Tan
+7. Jason Le
+8. Maria Redwin San Diego Perez
 
 ### 23rd October 2019
-9. Jiaotong Tan
-10. Jason Le
-11. Maria Redwin San Diego Perez
-12. Zelun Xu
-13. Flora Ngo
-14. Sophie Lin
-15. Nicole Wise Erwan Ong
-16. Zhonghao Liang
+9. Zelun Xu
+10. Flora Ngo
+11. Sophie Lin
+12. Nicole Wise Erwan Ong
+13. Zhonghao Liang
+14. Nguyen Ngoc Anh
+15. Christian Bagaskara
+16. Maxwell Lyons
 
 ## Example questions:
 Make your questions specific to the presentation. Don't ask generic questions that you could ask about any student's project.
