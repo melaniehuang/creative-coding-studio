@@ -47,7 +47,7 @@ Make your questions specific to the presentation. Don't ask generic questions th
 - Answer a question from one of your peers
 
 ## Your presentation will be marked on:
-- Presentation (60pts)
+- Presentation (30pts)
 - Answer to question(5pt)
-- Final process journal and visuals (30pts)
+- Final process journal and visuals (60pts)
 - Question to peer(5pt)
