@@ -51,3 +51,11 @@ Make your questions specific to the presentation. Don't ask generic questions th
 - Answer to question(5pt)
 - Question to peer(5pt)
 - Final process journal and visuals (60pts)
+
+## Process Journal/Project checklist
+Let's break down the assessment. Some helpful tips to help improve your mark.
+- Research multiple sources both for your technical and creative inspiration
+- Follow your instincts on things you've noticed and been inspired by
+- Try different coding avenues and push them further than the tutorial
+- If you're using some reference code, changing a few numbers and submitting this does not achieve a result that is unique to you, I want to see your process and your thoughts
+- Keep it simple. Don't try to pad out your journal to make it appear longer with bigger words and more paragraphs. Just focus on clarity. What did you do? What did you try? What worked? What didn't?
