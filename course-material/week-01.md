@@ -7,7 +7,7 @@ Using your RMIT email address, navigate to https://cc-studio-2020.slack.com/ and
 If you have a preferred code editor, feel free to use it but for our class I will be using Sublime. [Download Sublime Text 3 here](https://www.sublimetext.com/3)
 
 ## Download this package to get started
-[Download this zip file](/template/my-empty-sketch.zip)
+[Download this folder "my-empty-sketch"](/template)
 This is where we'll start, locally on our machines to hopefully prevent any incompatabilities *fingers crossed*. First download the above and then we'll go into what each thing is after that.
 
 ## Join the openProcessing class
