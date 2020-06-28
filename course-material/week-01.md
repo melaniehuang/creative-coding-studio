@@ -6,6 +6,9 @@ Using your RMIT email address, navigate to https://cc-studio-2020.slack.com/ and
 ## Download Sublime
 If you have a preferred code editor, feel free to use it but for our class I will be using Sublime. [Download Sublime Text 3 here](https://www.sublimetext.com/3)
 
+## Download Chrome
+We will be working in the browser so please make sure you are using [Google Chrome](https://www.google.com.au/chrome/). If you don't already use this browser, please download it. If you already have this browser, please make sure it's up to date.
+
 ## Download this package to get started
 [Download this folder "my-empty-sketch"](/template)
 This is where we'll start, locally on our machines to hopefully prevent any incompatabilities *fingers crossed*. First download the above and then we'll go into what each thing is after that.
@@ -18,7 +21,7 @@ There is an [online editor](https://editor.p5js.org/) that we may have to use du
 
 # What on earth was all that about up there?!
 
-## Welcome to Creative Coding
+## An introduction to Creative Coding
 Congratulations, you have taken the dive! Welcome to big, bad and exciting world of creative coding. It is a large and ever-evolving landscape. 
 
 It's normal to feel nervous if this is your first time coding. We will treat this class like any other studio class. We will make, experiment, discuss and evolve our ideas together AND most importantly leave noone behind. This studio is made to allow you to be as creative or as technical as you would like.
@@ -37,32 +40,76 @@ This semester we will be covering Processing; a programming language for learnin
 
 Maybe a table might be easier to show you how these pieces fit.
 
-Processing | Processing.js | openProcessing | p5.js | Javascript |
+Processing | Processing.js | openProcessing | p5.js | JavaScript |
 --- | --- | --- | --- | --- |
 Created in 2001, as a language for learning how to code within the context of the visual arts. It runs on your Desktop. It is a programming language based on Java. This is the OG we know and love. | Created in 2008 and has since been sidelined(works but has noone to maintain or improve it). Can run on the web. It was made to run Processing sketches in the browser. It's also used as a base to run Processing code inside of openProcessing which highlights some incompatabilities. | Created in 2009 as a method of sharing your sketches and creating an online Processing community with visuals! Runs online. Online community where you submit your sketches to a class and can upload and share your sketches. | The newest of the bunch, released in 2014 and has the most work and effort going into it currently. It runs in the browser and there is an online editor(that we may use). p5.js is a Javascript library based on Processing. | JavaScript, often abbreviated as JS, is a programming language that runs in your browser. JavaScipt is the language - p5.js is a Javscript library. So we will be writing Javascript using the p5.js library.
 
 Hopefully, we're all still here AND we're ready to go!
 
-
-# Week 1: Introduction to Processing
-
 ## Sketching with code
-The concept of a “sketch” is fundamental to Processing and as you can see we have named our empty template, "my-empty-sketch". It introduces a new way of looking at code to encourage the ability to "sketch" with code. As a designer, one of the things I had to unlearn when I started creative coding was letting myself "sketch" and "play" rather than having a definite visual I wanted to produce to the pixel. As I'm sure, you will also find - if you want a predefined static visual, you could probably get there quicker with something like Photoshop or Illustrator. The advantages of creative coding is being able to push beyond what you can already imagine - and rather collaborate WITH the computer and let it surprise you.
+The concept of a “sketch” is fundamental to Processing and as you can see we have named our empty template, "my-empty-sketch". It introduces a new way of looking at code to encourage the ability to "sketch" with code. 
 
-[Ben Fry's address](https://youtu.be/9IOTFZLYtqU)
+### Learning to build vs. learning to use software
+As a designer, one of the things I had to unlearn when I started creative coding was letting myself "sketch" and "play" rather than having a definite visual I wanted to produce to the pixel. 
+
+As I'm sure you will also find - if you wanted a predefined static visual, you could probably get there quicker with something like Photoshop or Illustrator. The advantages of creative coding is being able to push beyond what you can already imagine - and rather collaborate WITH the computer and let it surprise you. We want to see code as an additional tool for our designs.
+
 "I want people to be impatient with the tools that are readily available to them... I'm less interested in someone creating the next Photoshop, but I do want them to create the tool that **is** the Photoshop they need for the project that they're actually creating at the time... We've been too willing to use the tools that have been provided to us created by companies who's primary interest is their bottom line and not necessarily the artefacts we create with their products."
+- [Ben Fry's address](https://youtu.be/9IOTFZLYtqU)
 
-[Lauren's voice - from 5:00](https://youtu.be/smXEYs_Bcpc)
+### A different approach
 "This slide has the word 'learn' in here which is really important to me...starting out you can see these people making code and you think oh I had to go to some elite univeristy, or work at a big company or be some kind of expert and I'm never going to get there... the whole basis of this is about learning. The idea of Processing is to make learning to code a little easier, a little bit more accessible to people that maybe don't relate to just printing out numbers to a command line... And this idea of making mistakes. Sometimes those screw ups become the most interesting part of your project... That's what's special about this group here. We are able to appreciate those mistakes and turn that into something wonderful."
+- [Lauren's voice - from 5:00](https://youtu.be/smXEYs_Bcpc)
 
-Now Processing is only one community of programming artists - but you will discover a lot more and find that computer art goes back as soon as we started to look at what computers could do.
+Last year in Japan
+Black Mountain College
 
-**Here's are some more video inspirations:**
+> "The student at the centre of education and the teachers as practitioners themselves. That the student, rather than the curriculum, is the proper centre… That a faculty… to be measured by what they do with what they know…"
+> – Black Mountain College, Prospectus, 1952
+
+> "Art work deals with the problem of a piece of art, but more, it teaches the process of all creating, the shaping out of the shapeless. We learn from it that no picture exists before is done, no form before it is shaped."
+> – Anni Albers. We Need the Crafts for their Contact with Materials, Design, 46:4. December 12, 1944
+
+Poems not demos
+Structure, open office hours
+
+### Inspiration
+- agideas moment
+- my project highlights
+- But of course before our time - at the dawn of computers - creatives too have been fascinated with the creative potential of the computer.
+- Murial Cooper
+- Vera Molnar, first computer art
+- Manfred Mohr
+- Lejaren Hiller and Leonard Isaacson > Mozart
+- Harold Cohen
+
+Design has always been driven on technology.
+- Sagmeister
+
+Modern artists/designers building with technology
+- Neri Oxman
+- Iris van herpen
+- Tyler Hobbs
+- Stefan Huerlemann
+- Zach Lieberman
+
+### Further reading
+I've started building out a list of inspirations in this [file](). If you have any artists/programmers/designers that are close to your heart, please share them with us - let's build an inspiration board together.
+
+For some more inspiring videos on this topic, see here:
 - [A Box of Chaos: The Generative Artist's Toolkit by Benjamin Kovach](https://www.youtube.com/watch?v=kZNTozzsNqk&t=1s)
 - [Code goes in, Art comes out - Tyler Hobbs](https://www.youtube.com/watch?v=LBpqoj2nOQo)
 - [Vera Molnar on Computer Art](https://www.youtube.com/watch?v=BCZNNZGz5YI)
+- [Zach Lieberman: Poetic Computation](https://www.youtube.com/watch?v=mtWI6OFheVs)
 
-## Saving a file
+# Sharing time
+## Let's get to know each other
+In the spirit of the Black Mountain College and The School for Poetic Computation, let's get to know one another. Let's break for 10 minutes and then we will come back and share:
+- Name
+- Have you coded before?
+- Something that inspired you to take this studio or inspires your practice.
+
+# Week 1: Getting started
 
 ## The first square
 Functions are like mini programs and the main two functions that exist in Processing are setup() and draw(). setup() runs once at the start of our sketch and draw() runs over and over again on repeat.
@@ -86,7 +133,6 @@ function draw(){
 
 3. Save the file.
 4. Open "index.html" in Google Chrome.
-
 
 Can you describe what is happening in this sketch in plain english?
 Change some numbers and it should become fairly obvious :)
@@ -220,21 +266,39 @@ c	- float: width of the ellipse by default
 d	- float: height of the ellipse by default
 */
 ```
-So in human terms, by default, this means:
-```javascript
-ellipse(x-coordinate of centre point, y-coordinate of centre point, ellipse width, ellipse height)
-```
 
-# Weekly exercise
-So that's enough blabbering. Let's start by trying!
+So in human terms, by default, this means:
+- (a,b) is the coordinate of the ellipse's centre point
+- c is the ellipse's width
+- d is the ellipse's height
+
+Have an explore of these examples to give you a feel for what's possible in p5.js.
+https://p5js.org/examples/
+
+Have a look on things other people are creating on openProcessing:
+https://www.openprocessing.org/browse/#
+
+# Anni and Josef Albers
+So that's enough blabbering. Let's start by trying! Every week we will look at a different source of inspriation to code to. This week's exercise is inspired by the sentiment of Anni Albers and the aesthetics of Josef Alber's Hommage to the Square.
+
+> "Art work deals with the problem of a piece of art, but more, it teaches the process of all creating, the shaping out of the shapeless. We learn from it that no picture exists before is done, no form before it is shaped."
+> – Anni Albers. We Need the Crafts for their Contact with Materials, Design, 46:4. December 12, 1944
+
 
 ![Image title](url)
 
 ## Week 1 sketch
 Week | Exercise |
 --- | --- |
-1 | ... |
+1 | Create an ode to Josef Albers' "Homage to the Square". Start with finding a colour combination you like and then create a composition inspired by Albers with 3 or 4 different sized squares. Try different arrangements and submit your final piece. Add a comment with the initial Albers’ work/s and any other references you were inspired by. |
 
 # Uploading your weekly exercises
-1. Go to [openProcessing](https://www.openprocessing.org/) and log in.
-2. Navigate to **“Sketches”** and select **“Create a Sketch”**.3. On the far right panel, make sure your “mode” is set to **“Processing.js”**. This will save you from having to translate your code into Javascript manually(most of the time!).4. Copy and paste your code from Processing to the light grey box and hit **Save**.5. Go to “My Feed” and navigate to **“Classes”**.6. Scroll down to the week that you want to submit for and hit **“Add Sketch”**.7. Select your newly uploaded sketch and hey presto, we’ve submitted our first weekly exercise :)8. Make sure that **“Who can see it”** is set to **Anyone** or **Me & My Classes** in addition to **“Hide Source Code”** being set to **Off**.
+- Go to https://www.openprocessing.org/ and log in.
+- Navigate to Sketches and select Create a Sketch.
+- On the far right panel, make sure your "mode" is set to p5js. 
+- Type in your code, or if you're writing this locally, copy and paste your code.
+- Check that it's working as intended by selecting Play.
+- Go to My Feed and navigate to Classes.
+- Scroll down to the week that you want to submit for and hit Add Sketch.
+- Select your newly uploaded sketch and hey presto, we’ve submitted our first weekly exercise :) - You can edit these all the way up to your assignment submission but I would advise that you try to do as we go whilst the content is fresh in your mind.
+- Make sure that Who can see it is set to Anyone or Me & My Classes in addition to Hide Source Code is set to Off.
