@@ -30,8 +30,8 @@ Let's break for 10 minutes and then we will come back and share with each other:
 - Something that inspired you to take this studio or inspires your practice.
 
 ## Computers and Creativity
-[Zoom recording will be uploaded here]()
-[Slides available here]()
+- [Zoom recording will be uploaded here]()
+- [Slides available here]()
 
 ## Coding shapes
 
