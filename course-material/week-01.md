@@ -30,6 +30,7 @@ Let's break for 10 minutes and then we will come back and share with each other:
 - Something that inspired you to take this studio or inspires your practice.
 
 ## Computers and Creativity
+Every best effort will be made to record and upload these in a timely matter however due to technology issues this may not always be possible. This will be a record of this portion of the class for later reference but please do not rely on these as your only source. It's best to show up to class.
 - [Zoom recording will be uploaded here]()
 - [Slides available here]()
 
