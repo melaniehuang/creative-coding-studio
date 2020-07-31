@@ -31,8 +31,8 @@ Let's break for 10 minutes and then we will come back and share with each other:
 
 ## DISCOURSE: Computers and Creativity
 Every best effort will be made to record and upload these in a timely matter however due to technology issues this may not always be possible. This will be a record of this portion of the class for later reference but please do not rely on these as your only source. It's best to show up to class.
-- [Zoom recording will be uploaded here]()
-- [Slides available here]()
+- [Zoom recording will be uploaded here](https://drive.google.com/drive/folders/1x1sPNrUC-WDVlskrmzzX-wktnjgXGy2i?usp=sharing)
+- [Slides available here](https://drive.google.com/drive/folders/1Tt7AbCijBW1Rt7hgZ5EJ3xZjVOBFKdjX?usp=sharing)
 
 ## STUDIO: Starting with Shapes
 
