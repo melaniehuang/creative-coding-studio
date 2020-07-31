@@ -8,6 +8,9 @@ As the field of Digital Media expands so does the potential of what we can imagi
 **Assessments**
   - [Task 1, 2 and 3 Assessment Criteria](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-files/2020-assessment-criteria.pdf)
   - [Sol LeWitt instructions list](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-files/lewitt-instructions.pdf)
+
+**1-1 Schedule**
+  - [Schedule sheet](https://docs.google.com/spreadsheets/d/1jBFTvYcMNeGUyoPuFVU3g5cbonb0MAVqky0fK5KJjj8/edit?usp=sharing)
   
 **Weekly course material**
   - [Studio Syllabus](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-files/2020-studio-summary.pdf)
