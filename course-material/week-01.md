@@ -12,7 +12,7 @@ If you have a preferred code editor, feel free to use it but for our class I wil
 We will be working in the browser so please make sure you are using [Google Chrome](https://www.google.com.au/chrome/). If you don't already use this browser, please download it. If you already have this browser, please make sure it's up to date.
 
 ### Download this zip to get started
-[Download this folder "my-empty-sketch"](/template)
+[Download this folder "my-empty-sketch"](https://github.com/melaniehuang/creative-coding-studio/tree/master/course-material/template)
 This is where we'll start, locally on our machines to hopefully prevent any incompatabilities *fingers crossed*. First download the above and then we'll go into what each thing is after that.
 
 ### Join the openProcessing class
