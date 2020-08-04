@@ -302,13 +302,13 @@ function draw(){
 }
 ``` 
 
-## DISCOURSE: The Expressionists
+# DISCOURSE: The Expressionists
 Every best effort will be made to record and upload these in a timely matter however due to technology issues this may not always be possible. This will be a record of this portion of the class for later reference but please do not rely on these as your only source. It's best to show up to class.
 - [Zoom recording will be uploaded here](https://drive.google.com/drive/folders/1x1sPNrUC-WDVlskrmzzX-wktnjgXGy2i?usp=sharing)
 - [Slides available here](https://drive.google.com/drive/folders/1Tt7AbCijBW1Rt7hgZ5EJ3xZjVOBFKdjX?usp=sharing)
 
-## STUDIO: Colours and Arrays
-### Colours
+# STUDIO: Colours and Arrays
+## Colours
 Now let's dig deeper in the world of colours. If you haven't already had some fun with random colouring, here's one I prepared earlier, prepare your eyes!
 ```javascript
 function setup(){
@@ -332,7 +332,7 @@ Now, unless you’re intentionally after this eye-bleeding aesthetic, this can b
 
 We’re going to focus on some colour techniques to better curate what the computer produces. Now, I’m not going to bore you(or myself) with colour theory but rather, let’s talk about three ways to produce better colours.
 
-####Color tip #1: Limit your values
+### Color tip #1: Limit your values
 By default, Processing accepts RGB values. These are represented by three numbers, each between 0-255 inclusive, telling the computer how much red, green and blue you want. These values are added together, to create an RGB colour. Therefore, if we’re saying:
 ```javascript
 fill(random(255), random(255), random(255), random(255));
@@ -397,7 +397,7 @@ Now you will notice, that most of the generated colours aren’t so random, and 
 
 Tweak colours until you're happy with how things are looking. You're looking for enough variation that the computer can surprise you but not enough surprise that your eyes are bleeding.
 
-####Color tip #2: Change the colour mode
+### Color tip #2: Change the colour mode
 Even though we could technically look at every value within our limited RGB values to curate them - it would take a long time. Therefore, when it comes to manipulating colour, the HSB colour mode is more human friendly. HSB stands for Hue, Saturation and Brightness, which makes a lot more sense than trying to think about how much Red, Green and/or Blue is in a colour.
 
 [Here's a bigger explanation on HSB](https://learnui.design/blog/the-hsb-color-system-practicioners-primer.html)
@@ -448,10 +448,10 @@ function mousePressed(){
 
 Now you should start catching yourself, changing the random values of a hue, saturation or brightness level. Do you feel more in control of your random colours now?
 
-#### Quick exercise
+### Quick exercise
 Let’s try something. We want a colour palette of different shades and tints of pink and blue. How would you go about randomising these shades and tints?
 
-#### Color tip #3
+### Color tip #3: Just pick some
 These are oldies but goodies. Choose your colours beforehand - shock horror 😱! If you’re like me and find colours terrifyingly hard, here are some tools that you may or may not have encountered to make our lives easier:
 
 The super fast color schemes generator https://coolors.co/
@@ -460,10 +460,10 @@ Search by colour through other designers’ work for inspiration via [Dribble](h
 
 Another tip when I'm super stuck. I begin to look at a photo or an illustration that use colour in the way that I am trying to and I sample colours directly from there. 
 
-#### Quick exercise
+### Quick exercise
 Select a colour. Now, make a palette of four other colours to complement your chosen colour. You’ll use these colours in the next section.
 
-### Arrays
+## Arrays
 The next stage in our Creative Coding journey is being able to make a colour palette for our artwork that we can draw upon. The way that we are going to do this is to create an Array of colours. What is an Array you might ask? Well, I’m glad you asked...
 
 An Array is yet another datatype which can store a list of “things”. The “things” can be any datatype from a Number to a String and sometimes even MORE arrays. In our case, we’ll be using the datatype color to create a palette we can draw upon during our sketch.
@@ -557,5 +557,5 @@ function keyPressed(){
 
 Now we've set up a basic machanism structure. Click the canvas until you're happy with a result, then hit any key to save your favourite combinations.
 
-### Week 02 Exercise
+## Week 02 Exercise
 We've learnt a lot this week about movement, expression and colour. Let's put it all into action by using a colour palette inspired by Mark Rothko. Using shapes, transparency and a user defined colour palette, select one of the following human conditions to illustrate: "innocence", "gratitude", "friendship", "tragedy" or "ecstasy".
