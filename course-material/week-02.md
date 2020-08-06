@@ -44,11 +44,14 @@ function vidLoad() {
 **Code Description:**
 Create a canvas that is 900 wide by 900 high with a black background. Create a video type variable with the file 'video.mp4' and assign it to the variable vid. Once the video finishes loading, call the function vidLoad which defines the video to play on loop with a volume of 0.
 
-So there's a bunch of stuff there that may be new. Such as, what is a variable? And how do you define it?
+So there's a bunch of stuff there that may be new. Such as, what is a variable? And how do you define it? And how do we get this up and running on our computers.
 
 ## STUDIO: Variables, Movement and Color
+### Download this zip if you haven't already
+[Download this folder "my-empty-sketch"](https://drive.google.com/file/d/1vtYeOFjw6v_PfgIaUhCQf71ly9JIdjtl/view?usp=sharing)
+
 ### Data Types
-First off, we need to talk about data types. In order for the computer to understand what kind of value it’s dealing with, you need to tell the computer what “type” of variable you’re going to be giving it. In a language like Processing you would write this:
+Let's start with data types. In order for the computer to understand what kind of value it’s dealing with, you need to tell the computer what “type” of variable you’re going to be giving it. In a language like Processing you would write this:
 ```processing
 int numberILike = 20;
 ```
@@ -302,7 +305,7 @@ function draw(){
 }
 ``` 
 
-# DISCOURSE: The Expressionists
+# DISCOURSE: Expression
 Every best effort will be made to record and upload these in a timely matter however due to technology issues this may not always be possible. This will be a record of this portion of the class for later reference but please do not rely on these as your only source. It's best to show up to class.
 - [Zoom recording will be uploaded here](https://drive.google.com/drive/folders/1x1sPNrUC-WDVlskrmzzX-wktnjgXGy2i?usp=sharing)
 - [Slides available here](https://drive.google.com/drive/folders/1Tt7AbCijBW1Rt7hgZ5EJ3xZjVOBFKdjX?usp=sharing)
