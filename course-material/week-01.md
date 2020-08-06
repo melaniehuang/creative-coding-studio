@@ -34,9 +34,7 @@ Every best effort will be made to record and upload these in a timely matter how
 - [Zoom recording will be uploaded here](https://drive.google.com/drive/folders/1x1sPNrUC-WDVlskrmzzX-wktnjgXGy2i?usp=sharing)
 - [Slides available here](https://drive.google.com/drive/folders/1Tt7AbCijBW1Rt7hgZ5EJ3xZjVOBFKdjX?usp=sharing)
 
-## STUDIO: Starting with Shapes
-
-### An introduction to Creative Coding
+## An introduction to Creative Coding
 Congratulations, you have taken the dive! Welcome to the exciting world of creative coding. It is a large and ever-evolving landscape. 
 
 It's normal to feel nervous if this is your first time coding. We will treat this class like any other studio class. We will make, experiment, discuss and evolve our ideas together AND most importantly leave noone behind. This studio is made to allow you to be as creative or as technical as you would like. So if you are on the other side and you have coded before, use this as an opportunity to explore pathways you've always wanted to expand in or revisit existing concepts differently.
@@ -59,6 +57,7 @@ Processing | Processing.js | openProcessing | p5.js | JavaScript |
 --- | --- | --- | --- | --- |
 Created in 2001, as a language for learning how to code within the context of the visual arts. It runs on your Desktop. It is a programming language based on Java. This is the OG we know and love. | Created in 2008 and has since been sidelined(works but has noone to maintain or improve it). Can run on the web. It was made to run Processing sketches in the browser. It's also used as a base to run Processing code inside of openProcessing which highlights some incompatabilities. | Created in 2009 as a method of sharing your sketches and creating an online Processing community with visuals! Runs online. Online community where you submit your sketches to a class and can upload and share your sketches. | The newest of the bunch, released in 2014 and has the most work and effort going into it currently. It runs in the browser and there is an online editor(that we may use). p5.js is a Javascript library based on Processing. | JavaScript, often abbreviated as JS, is a programming language that runs in your browser. JavaScipt is the language - p5.js is a Javscript library. So we will be writing Javascript using the p5.js library.
 
+## STUDIO: Starting with Shapes
 Let's start coding here:
 [Week 1: Starting with Shapes](http://www.openprocessing.org/sketch/939662)
 
