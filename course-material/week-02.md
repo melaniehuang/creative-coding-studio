@@ -5,12 +5,11 @@ I've been thinking and reflecting a lot this week on the course ahead of us and 
 
 There's always a tricky balancing act with teaching coding but a lot of the class seemed super enthusiastic on coding and advancing your knowledge, so we'll push more heavily in that direction using contemporary examples on how I've approached some projects. Therefore we'll be focusing less on the discourse element of our class, and focus more heavily on creating fun experiments to make this class more interactive.
 
-I am planning to add in the following into our lesson plan and will update the semester summary accordingly:
-- Generative Posters/Typography
-- Games and toys
-- Live coding visuals
-- Machine Learning with StyleGAN and Snapchat
-- Machine Learning with illustrations
+I am planning to add in the following playful coding exercises into our lesson plan and update the summary accordingly:
+- [Generative Posters/Typography](https://www.instagram.com/opencollab.mel/)
+- [Live coding visuals](https://www.instagram.com/p/CDkfUkiHPHP/)
+- [Machine Learning with StyleGAN and Snapchat](https://www.instagram.com/p/CBy4vXenvBD/)
+- [Machine Learning with illustrations](https://www.instagram.com/p/CDA4kE2He6q/)
 
 This will mean that we will move to coding locally on our computer, as openProcessing can be restrictive, and just use openProcessing as our gallery upload. This means that if you're working outside of openProcessing, we will upload a 1-2 minute screen capture of our visuals and upload the code as a zip. This will also give you a better sense of coding a commerical project like you would for a client.
 
