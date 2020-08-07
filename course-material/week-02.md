@@ -19,7 +19,7 @@ Let's navigate to openProcessing.
 1. Select the button "Create a sketch"
 2. Open the side menu via the three dots or "kebab" icon
 3. Navigate to "Files"
-4. Upload your video as an .mp4 file called "video"
+4. Upload your video as an .mp4 file called "video". [Asset download here](https://drive.google.com/drive/folders/1TzZcjKjFJ1pK_BgR-xPHUy1vdVeD9TVV?usp=sharing)
 5. Copy in the below:
 
 ```javascript
@@ -557,7 +557,7 @@ function keyPressed(){
 }
 ```
 
-Now we've set up a basic machanism structure. Click the canvas until you're happy with a result, then hit any key to save your favourite combinations.
+Now we've set up a basic mechanism and structure. Click the canvas until you're happy with a result, then hit any key to save your favourite combinations.
 
 ## Week 02 Exercise
 We've learnt a lot this week about movement, expression and colour. Let's put it all into action by using a colour palette inspired by Mark Rothko. Using shapes, transparency and a user defined colour palette, select one of the following human conditions to illustrate: "innocence", "gratitude", "friendship", "tragedy" or "ecstasy".
