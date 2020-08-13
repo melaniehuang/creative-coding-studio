@@ -16,6 +16,7 @@ As the field of Digital Media expands so does the potential of what we can imagi
   - [Studio Syllabus](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-files/2020-studio-summary.pdf)
   - [Week 1](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
   - [Week 2](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-02.md)
+  - [Week 3](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-03.md)
 
 **Past curriculums**
   - 2019 - [Creative Coding](https://github.com/melaniehuang/creative-coding-studio/blob/master/2019) x NGV's [Alexander Calder](https://www.ngv.vic.gov.au/exhibition/alexander-calder/)(Processing)
