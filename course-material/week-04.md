@@ -18,7 +18,7 @@ Let's start with getting an interesting background happening. We're dedicated th
 
 ## Poster Design
 ### Background 
-For our background we're going to draw randomised wonky quadralaterals with a stroke and no fill. We're going to layer those quads and increase the amount of them as we go down the page. Let's just start, we'll start to see this emerge.
+For our background we're going to draw randomised wonky quadrilaterals with a stroke and no fill. We're going to layer those quads and increase the amount of them as we go down the canvas. Let's just start and see what emerges.
 
 I want a portrait orientated poster at 595 x 860px with a black background.
 
@@ -35,12 +35,10 @@ function draw() {
 ```
 
 ### Quadrilaterals 
-Now we add a [quad()](https://p5js.org/reference/#/p5/quad). If you haven't drawn a quad before, check out the reference. 
-
+Now we add a [quad()](https://p5js.org/reference/#/p5/quad). If you haven't drawn a quad before, check out the reference but here is the syntax with each (x,y) set being each of the four corners.
 ```javascript
 quad(x1, y1, x2, y2, x3, y3, x4, y4);
 ```
-
 ```javascript
 function setup() {
   createCanvas(595,860);
@@ -56,7 +54,7 @@ function draw() {
 }
 ```
 
-We are using quad() instead of rect() so we can have some control over each corner. Let's add some randomness to the corners, just a little.
+We are using quad() instead of rect() so we can have some fun over each corner. Let's add some randomness to the corners, just a little.
 
 ```javascript
 function setup() {
@@ -69,11 +67,7 @@ function draw() {
   background(0,0,0); 
   stroke(0,0,100);
   noFill();  
-  quad(5+random(-5,5),5+random(-5,5),
-  	   45+random(-5,5),5+random(-5,5),
-  	   45+random(-5,5),45+random(-5,5),
-  	   5+random(-5,5),45+random(-5,5)
-  );
+  quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));
 }
 ```
 
@@ -96,11 +90,7 @@ function draw() {
 }
 
 function molnarQuad(){
-  quad(5+random(-5,5),5+random(-5,5),
-  	   45+random(-5,5),5+random(-5,5),
-  	   45+random(-5,5),45+random(-5,5),
-  	   5+random(-5,5),45+random(-5,5)
-  );
+  quad(5+random(-5,5),5+random(-5,5), 45+random(-5,5),5+random(-5,5), 45+random(-5,5),45+random(-5,5), 5+random(-5,5),45+random(-5,5));
 }
 ```
 
@@ -122,11 +112,7 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-	  quad(5+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),45+random(-5,5),
-	  	   5+random(-5,5),45+random(-5,5)
-	  );  	
+	  quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));  	
 	}
 }
 ```
@@ -149,12 +135,8 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-	  quad(5+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),45+random(-5,5),
-	  	   5+random(-5,5),45+random(-5,5)
-	  );  	
-	}
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
+  }
 }
 ```
 
@@ -174,8 +156,8 @@ function draw() {
   noFill();
   for(let y = 0; y < 5; y++){
   	for(let i = 0; i < 5; i++){
-  		push();
-  		translate(i*60,y*60);
+      push();
+      translate(i*60,y*60);
     	molnarQuad(2);
     	pop();
   	}
@@ -184,12 +166,8 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-	  quad(5+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),45+random(-5,5),
-	  	   5+random(-5,5),45+random(-5,5)
-	  );  	
-	}
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
+  }
 }
 ```
 
@@ -209,8 +187,8 @@ function draw() {
   noFill();
   for(let y = 0; y < 5; y++){
   	for(let i = 0; i < 5; i++){
-  		push();
-  		translate(i*60,y*60);
+      push();
+      translate(i*60,y*60);
     	molnarQuad(y+1);
     	pop();
   	}
@@ -219,21 +197,17 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-	  quad(5+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),5+random(-5,5),
-	  	   45+random(-5,5),45+random(-5,5),
-	  	   5+random(-5,5),45+random(-5,5)
-	  );  	
-	}
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
+  }
 }
 ```
 
 ### Quick exercise
 Have a play around with the numbers, see what you can create.
-Maybe you want to try a different shape or set of numbers... In the spirit of the Molnar's Imaginary Machine - maybe let the computer surprise *you*!
+Maybe you want to try a different shape or set of numbers... In the spirit of Molnar's Imaginary Machine - maybe let the computer surprise *you*!
 
 ## Adding sliders
-Let's explore adding some UI to this poster. So our goal is to use some standard HTML inputs like a "slider" - and connect the value of the slider to a variable within our sketch. 
+Let's explore adding some UI to this poster. So our goal is to use some standard HTML inputs like a "slider" and connect the value of the slider to a variable within our sketch. 
 
 We're going to explore this via the p5 library under the category of [DOM](https://p5js.org/reference/#group-DOM). This collection of functions gives us the ability to manipulate html and css on the page from our "sketch.js" file. 
 
@@ -267,16 +241,12 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
 
-So now we have a slider at the bottom of the screen. If you move the slider dot around, nothing happens. That's because we haven't connected it to anything. Let's connect it to the amount of molnar quads we have in our grid.
+So now we have a slider at the bottom of the screen. If you move the slider handle around, nothing happens. That's because we haven't connected it to anything. Let's connect it to the amount of Molnar quads we want in our grid.
 
 ```javascript
 let slider1;
@@ -307,16 +277,12 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
 
-And now let's make a second slider that alters the spacing between the quads.
+And now let's make a second slider that alters the space between the quads.
 
 ```javascript
 let slider1;
@@ -357,16 +323,12 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
 
-## sketch.js vs. index.html text
+## sketch.js vs. index.html
 Now let's say we want to add some text. We could simply do something like this:
 ```javascript
 let slider1;
@@ -410,35 +372,32 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
 
-However, I want to explore variable typefaces with you today. And for that - we will need to use some css. What's the difference?
+However, I want to explore variable typefaces with you today. And for that - we will need to use some css. What's the difference, you may ask?
 
 When you type in:
 ```javascript
 text(str, x, y);
 ```
-We're asking the program to print the words "Hello there world" into the sketch on the HTML <canvas> that p5.js uses to render the graphics that you are trying to draw. This means, the text is not what we call "live" text. "Live" text can be selected on a webpage, copy and pasted, can adjust to screensizes, can be read by screenreaders for people living with a vision impairment and the list goes on. 
+We're asking the program to print the words "Hello there world" into the sketch on the HTML canvas that p5.js uses to render the graphics that you are drawing to screen. This means, the text is not what we call "live" text. "Live" text can be selected on a webpage, copy and pasted, can adjust itself to screen sizes, can be read by screen readers for people living with a vision impairment and the list goes on... 
 
 ### Quick exercise
-Try and select the text to copy and paste it. You can't right?!
+Try and select the text to copy and paste it. Can you?
 
-This may seem like a small nuance but when you start to build websites, we want to avoid fixed sizes for a digital landscape that comes in many screen sizes and resolutions. Besides, variable text sizing is not supported by p5 currently, so let's explore that.
+This may seem like a small nuance but when you start to build and design websites, we want to avoid fixed sizes for a digital landscape that comes in many screen sizes and resolutions. Besides, variable text sizing is not supported by the p5 DOM functions at the moment and its fun, so let's explore that further.
 
 ## HTML + CSS
-First step, let's put some text on our website.
-We're going to manipulate and add text somewhere different today. We're going to start looking at the other files in your directory - index.html and style.css.
+First step, let's put some text on our website. We're going to open two unexplored files today, index.html and style.css.
 
-Our html file determines what is being shown on the page and the css styles that page. When we write code to "sketch.js" - the webpage "index.html" already expects to load a Javascript file called sketch.js and a library called p5.js. Then the library p5.js reads "sketch.js" and knows how to render it to a html canvas object. 
+Our html file determines what is being shown on the page and the css styles that page. When we write code to "sketch.js":
+1. The webpage "index.html" loads the file "sketch.js" and the library "p5.js".
+2. The p5.js library then reads "sketch.js" and knows how to render it as a html canvas object. 
 
-Open up your **index.html** file in your text editor and in between our <body> tags:
+Open up your **index.html** file in your text editor and in between our body tags:
 ```
 <!DOCTYPE html>
 <html lang="">
@@ -491,22 +450,27 @@ canvas{
 }
 ```
 
-So now we can see some changes. We've changed the colour of the background and text. We've also changed the position of the canvas and the order of the elements.
+So now we can see some changes. We've changed:
+- the colour of the background
+- the colour of the text
+- the position of the canvas
+- the viewing order of the canvas(moving it to the back)
 
 Now let's mess about with the fonts.
 
 ## Google Fonts + HTML/CSS
-Let's navigate to [Google Fonts](https://fonts.google.com/). Google fonts is a catalog of well made web fonts that are free and open source. 
+Let's navigate to [Google Fonts](https://fonts.google.com/). Google Fonts is a catalog of well made web fonts that are free and open source. 
 
-There's a checkbox labelled "Show only variable fonts" where you can see all the variable fonts available. Variable fonts on the web are a fairly new concept and are definitely not in common use but that's why its a good candidate to have some fun with. 
+There's a checkbox labelled "Show only variable fonts" where you can see all the variable fonts available. Variable fonts on the web are a fairly new concept and are definitely not in common use however I suspect this will change soon. In any case, it's a good topic to start to think about and play around with.
 
-If you want to use one of these fonts, go ahead and download it but for the class we'll be using [Amstelvar](https://googlefonts.github.io/fluid/#wave) which has full support of a bunch of variations. Download this font file here: https://github.com/TypeNetwork/Amstelvar/blob/master/fonts/Amstelvar-Roman%5Bwdth%2Cwght%2Copsz%5D.ttf
+If you want to use one of these variable fonts, go ahead and download it however many of them can only be altered in "weight". We're going to alter the "width" and "weight" of our poster text for our class today so we're going to use [Amstelvar](https://googlefonts.github.io/fluid/#wave).
+- Download this font file here: https://github.com/TypeNetwork/Amstelvar/blob/master/fonts/Amstelvar-Roman%5Bwdth%2Cwght%2Copsz%5D.ttf
 
-You can also find some fun variable vonts with fun variations [here](https://v-fonts.com/).
+You can also find some fun variable fonts with fun variations [here](https://v-fonts.com/).
 
 Now we want to load this font from our computer and use it on our poster. 
-1. Let's select "Download" in the middle right. 
-2. Navigate to your Downloads folder and find the following file: "Amstelvar-Roman[wdth,wght,opsz].ttf".
+1. Let's select "Download" in the middle right or if you're on Google Fonts, select "Download family". 
+2. Navigate to your Downloads folder and find the ttf file: "Amstelvar-Roman[wdth,wght,opsz].ttf".
 3. Copy and paste this file into the folder called "data".
 4. Open up your style.css file and declare this at the top:
 ```
@@ -515,7 +479,7 @@ Now we want to load this font from our computer and use it on our poster.
   src: url('data/Amstelvar-Roman[wdth,wght,opsz].ttf');
 }
 ```
-5. Now let's change the fonts of our text inside our [classes](https://www.w3schools.com/cssref/sel_class.asp) .grid-item and .grid-item2. Beneath the "canvas{}", write the following:
+5. Now let's change the fonts of our text inside the [class](https://www.w3schools.com/cssref/sel_class.asp) .grid-item and .grid-item2. Beneath the "canvas{}", write the following:
 ```
 .grid-item {
   width:100%;
@@ -620,18 +584,14 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
 
 Okay now we have our sliders. Let's attach their values to font weight and widths. There's a few parts here so let's go slow. What we are now going to, in Javascript, is ask the program to: 
 1. "Select" all the elements with the class "grid-item" in our index.html file. 
-2. We get the values from slider3 and slider4 and format them in a way that the program can understand.
+2. Get the values from slider3 and slider4 and format them in a way that the program can understand.
 3. Change the css on each of those elements with the values from slider3 and slider4.
 
 Step 1: Select the elements
@@ -710,11 +670,7 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
@@ -781,11 +737,7 @@ function draw() {
 
 function molnarQuad(s){
   for(let i = 0; i < s; i++){
-    quad(5+random(-5,5),5+random(-5,5),
-         45+random(-5,5),5+random(-5,5),
-         45+random(-5,5),45+random(-5,5),
-         5+random(-5,5),45+random(-5,5)
-    );    
+    quad(5+random(-5,5),5+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5),45+random(-5,5),5+random(-5,5),45+random(-5,5));    
   }
 }
 ```
