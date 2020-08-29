@@ -746,7 +746,7 @@ function molnarQuad(s){
 
 Select an artist, designer, creative or maybe just someone in your life that you love. Your task this week is to make a poster in their honour using the magic triangle of 3 rules & 3 sliders:
 1. 595 x 860px in a portrait orientation
-2. Black and white only
+2. Black and white only(or 2 colours of your choice)
 3. Must include a variable typeface
 
 In addition to the above rules: it also must contain 3 sliders that control 3 seperate elements of the poster.
