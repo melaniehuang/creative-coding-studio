@@ -551,6 +551,30 @@ The next steps on our visualisation journey is to tackle [using APIs](https://ww
 
 For now, let's just let the whole CSV data visualisation above sink in.
 
+If you need to upload an image instead of the sketch.js code:
+1. Save and submit your openProcessing sketch
+2. Upload your image file 'image.png' to openProcessing in the tab "files".
+3. Use this code below:
+4. Upload your working files to Canvas when submitting.
+
+```javascript
+let img;
+
+function preload(){
+  img = loadImage('image.png');
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(100);
+}
+
+function draw() {
+  image(img, 0, 0);
+}
+```
+
+
 ## Week 05: Stories with data
 This week is about research! 
 
