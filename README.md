@@ -15,11 +15,12 @@ As the field of Digital Media expands so does the potential of what we can imagi
   
 **Weekly course material**
   - [Studio Syllabus](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-files/2020-studio-summary.pdf)
-  - [Week 1](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
-  - [Week 2](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-02.md)
-  - [Week 3](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-03.md)
-  - [Week 4](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-04.md)
-   - [Week 5](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-05.md)
+  - [Week 1: Creativity and Computers](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
+  - [Week 2: Expression](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-02.md)
+  - [Week 3: Mathematics and Art](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-03.md)
+  - [Week 4: The Early Pioneers](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-04.md)
+  - [Week 5: Storytelling](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-05.md)
+  - [Week 6: Sound as a medium](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-06.md)
 
 **Past curriculums**
   - 2019 - [Creative Coding](https://github.com/melaniehuang/creative-coding-studio/blob/master/2019) x NGV's [Alexander Calder](https://www.ngv.vic.gov.au/exhibition/alexander-calder/)(Processing)
