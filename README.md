@@ -22,6 +22,7 @@ As the field of Digital Media expands so does the potential of what we can imagi
   - [Week 5: Storytelling](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-05.md)
   - [Week 6: Sound as a medium](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-06.md)
   - [Week 7: Code as performance](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-07.md)
+  - [Week 8 + 9: A taste of Machine Learning](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-08.md)
 
 **Past curriculums**
   - 2019 - [Creative Coding](https://github.com/melaniehuang/creative-coding-studio/blob/master/2019) x NGV's [Alexander Calder](https://www.ngv.vic.gov.au/exhibition/alexander-calder/)(Processing)
