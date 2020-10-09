@@ -12,7 +12,34 @@ As the field of Digital Media expands so does the potential of what we can imagi
   
 **1-1 Schedule**
   - [Schedule sheet](https://docs.google.com/spreadsheets/d/1jBFTvYcMNeGUyoPuFVU3g5cbonb0MAVqky0fK5KJjj8/edit?usp=sharing)
-  
+ 
+**Presentation Order**
+
+The order has been determined via the Wheel of Names - if you want... you can watch the draw [here](https://drive.google.com/file/d/1tL8gl7y7-ZRPLVejonwtVVfLMF0xu3tP/view?usp=sharing) 😂
+
+Please try and keep within 10 minutes and again, we don't want any stiff presentations! I just want to give every student an opportunity to share their journey - don't be afraid to have fun with it!
+
+**Day 1 - 23 October**
+- Zelin(Bob/Babbo) Wang
+- Hongwei(Sylvia) Gao
+- Taejin(TJ) Kim
+- Brittany Keyworth
+- Casey Rosenberg
+- Yue(Alex) Xu
+- Christian Bagaskara
+- Jordan Hammill
+
+**Day 2 - 30 October**
+- Lauren Abineri
+- Oliver(Olly) Evans
+- Jack Mercuri
+- Wonjun(Oliver) Kim
+- Kristine Gudmundsen
+- Haofu (Chris) Cui
+- Caroline Straford
+
+At the end of each presentation, we will draw a random name(via the Wheel of Names) to ask a question to the presenter. Be curious with your question - make it count! What did you find interesting? What do you want to know more about?
+
 **Weekly course material**
   - [Studio Syllabus](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-files/2020-studio-summary.pdf)
   - [Week 1: Creativity and Computers](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-01.md)
