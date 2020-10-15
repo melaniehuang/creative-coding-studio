@@ -50,6 +50,8 @@ At the end of each presentation, we will draw a random name(via the Wheel of Nam
   - [Week 6: Sound as a medium](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-06.md)
   - [Week 7: Code as performance](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-07.md)
   - [Week 8 + 9: A taste of Machine Learning](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-08.md)
+ - [Week 10: Presentation Checklist](https://github.com/melaniehuang/creative-coding-studio/blob/master/course-material/week-10.md)
+
 
 **Past curriculums**
   - 2019 - [Creative Coding](https://github.com/melaniehuang/creative-coding-studio/blob/master/2019) x NGV's [Alexander Calder](https://www.ngv.vic.gov.au/exhibition/alexander-calder/)(Processing)
