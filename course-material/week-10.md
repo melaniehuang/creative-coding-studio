@@ -51,13 +51,13 @@ Make your questions specific to the presentation. Don't ask generic questions th
 
 ## Process Journal/Project checklist
 You'll notice that your final process journal and visuals is a majority of the marks for Task 3. By now we should be 8 weeks into the process of creating this final project. Let's break down the assessment with some helpful tips to make sure you haven't missed anything:
-- Research multiple sources both for your technical and creative inspiration
-- You are being marked both on the technical and creative aspect of your process and demo
-- Follow your instincts on things you've noticed and been inspired by - write them down
-- Try different coding avenues and push them further than the tutorial
-- If you're using some reference code, changing a few numbers and submitting this does not achieve a result that is unique to you, I want to see *your* process and *your* thinking
-- Keep it simple. Don't try to pad out your journal to make it appear longer with bigger words and more paragraphs. Just focus on clarity:
--- What inspired you?
--- What did you do?
--- What did you try?
--- What worked? What didn't?
+1. Research multiple sources both for your technical and creative inspiration
+2. You are being marked both on the technical and creative aspect of your process and demo
+3. Follow your instincts on things you've noticed and been inspired by - write them down
+4. Try different coding avenues and push them further than the tutorial
+5. If you're using some reference code, changing a few numbers and submitting this does not achieve a result that is unique to you, I want to see *your* process and *your* thinking
+6. Keep it simple. Don't try to pad out your journal to make it appear longer with bigger words and more paragraphs. Just focus on clarity:
+- What inspired you?
+- What did you do?
+- What did you try?
+- What worked? What didn't?
