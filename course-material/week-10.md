@@ -47,10 +47,9 @@ Make your questions specific to the presentation. Don't ask generic questions th
 - Presentation with live demo(15pts)
 - Answer to question(5pt)
 - Question to peer(5pt)
-- Final process journal and visuals(75pts)
 
 ## Process Journal/Project checklist
-You'll notice that your final process journal and visuals is a majority of the marks for Task 3. By now we should be 8 weeks into the process of creating this final project. Let's break down the assessment with some helpful tips to make sure you haven't missed anything:
+You'll notice that your final process journal and visuals is a majority of the marks for Task 3 - 75pts. By now we should be 8 weeks into the process of creating this final project. Let's break down the assessment with some helpful tips to make sure you haven't missed anything:
 1. Research multiple sources both for your technical and creative inspiration
 2. You are being marked both on the technical and creative aspect of your process and demo
 3. Follow your instincts on things you've noticed and been inspired by - write them down
