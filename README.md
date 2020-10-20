@@ -25,7 +25,6 @@ Please try and keep within 10 minutes and again, we don't want any stiff present
 - Taejin(TJ) Kim
 - Brittany Keyworth
 - Casey Rosenberg
-- Yue(Alex) Xu
 - Christian Bagaskara
 - Jordan Hammill
 
@@ -37,6 +36,7 @@ Please try and keep within 10 minutes and again, we don't want any stiff present
 - Kristine Gudmundsen
 - Haofu (Chris) Cui
 - Caroline Straford
+- Yue(Alex) Xu
 
 At the end of each presentation, we will draw a random name(via the Wheel of Names) to ask a question to the presenter. Be curious with your question - make it count! What did you find interesting? What do you want to know more about?
 
