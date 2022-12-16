@@ -19,25 +19,6 @@ The order has been determined via the Wheel of Names - if you want... you can wa
 
 Please try and keep within 10 minutes and again, we don't want any stiff presentations! I just want to give every student an opportunity to share their journey - don't be afraid to have fun with it!
 
-**Day 1 - 23 October**
-- Zelin(Bob/Babbo) Wang
-- Hongwei(Sylvia) Gao
-- Taejin(TJ) Kim
-- Brittany Keyworth
-- Casey Rosenberg
-- Christian Bagaskara
-- Jordan Hammill
-
-**Day 2 - 30 October**
-- Lauren Abineri
-- Oliver(Olly) Evans
-- Jack Mercuri
-- Wonjun(Oliver) Kim
-- Kristine Gudmundsen
-- Haofu (Chris) Cui
-- Caroline Straford
-- Yue(Alex) Xu
-
 At the end of each presentation, we will draw a random name(via the Wheel of Names) to ask a question to the presenter. Be curious with your question - make it count! What did you find interesting? What do you want to know more about?
 
 **Weekly course material**
